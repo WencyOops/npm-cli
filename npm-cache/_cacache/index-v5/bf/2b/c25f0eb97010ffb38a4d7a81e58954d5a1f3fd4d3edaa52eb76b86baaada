@@ -1,0 +1,2 @@
+
+ef71e804f2320bed6f487b1666a98ef275fe81c6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/istanbul-api","integrity":null,"time":1653031781966,"size":"262","metadata":{"time":1653031781966,"url":"https://registry.npm.taobao.org/istanbul-api","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/istanbul-api"},"options":{"compress":true},"status":301}}

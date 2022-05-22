@@ -1,0 +1,2 @@
+
+62ea20f2cd883180bf7301b2e4bbadb9ee9a711f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jest-docblock","integrity":null,"time":1653031782499,"size":"262","metadata":{"time":1653031782499,"url":"https://registry.npm.taobao.org/jest-docblock","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/jest-docblock"},"options":{"compress":true},"status":301}}

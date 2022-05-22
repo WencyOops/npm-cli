@@ -1,0 +1,2 @@
+
+4b022cfb5940c3e589e4a87aca1d3b1fed88da86	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/create-hash","integrity":null,"time":1653031787477,"size":"262","metadata":{"time":1653031787477,"url":"https://registry.npm.taobao.org/create-hash","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/create-hash"},"options":{"compress":true},"status":301}}

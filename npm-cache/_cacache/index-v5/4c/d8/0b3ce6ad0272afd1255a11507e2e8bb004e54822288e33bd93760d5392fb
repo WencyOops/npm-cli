@@ -1,0 +1,2 @@
+
+e37def3d75368256fe35fafa635fd6d0b0c365b6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-obj","integrity":null,"time":1653031790096,"size":"262","metadata":{"time":1653031790096,"url":"https://registry.npm.taobao.org/is-obj","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:50 GMT","location":"https://registry.npmmirror.com/is-obj"},"options":{"compress":true},"status":301}}

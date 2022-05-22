@@ -1,0 +1,2 @@
+
+04c0a33a374070062ff3a6bda30d65f0be442b94	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/cssnano-util-same-parent","integrity":null,"time":1653031789627,"size":"262","metadata":{"time":1653031789627,"url":"https://registry.npm.taobao.org/cssnano-util-same-parent","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:49 GMT","location":"https://registry.npmmirror.com/cssnano-util-same-parent"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+674a4d890b9c6996e045c1bc159b7b3096c4af1e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/stealthy-require","integrity":null,"time":1653031783573,"size":"262","metadata":{"time":1653031783573,"url":"https://registry.npm.taobao.org/stealthy-require","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/stealthy-require"},"options":{"compress":true},"status":301}}

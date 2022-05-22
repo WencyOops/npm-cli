@@ -1,0 +1,2 @@
+
+447181f6f932be3c382c23e91cc1b227db72e7e5	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@types%2fis-glob","integrity":null,"time":1653034638408,"size":"262","metadata":{"time":1653034638408,"url":"https://registry.npm.taobao.org/@types%2fis-glob","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 08:17:18 GMT","location":"https://registry.npmmirror.com/@types%2fis-glob"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+ab3ba07dfb1274536c10b2bdb0cd8743e0d5887e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@types%2fbabylon","integrity":null,"time":1653032676008,"size":"262","metadata":{"time":1653032676008,"url":"https://registry.npm.taobao.org/@types%2fbabylon","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:44:36 GMT","location":"https://registry.npmmirror.com/@types%2fbabylon"},"options":{"compress":true},"status":301}}

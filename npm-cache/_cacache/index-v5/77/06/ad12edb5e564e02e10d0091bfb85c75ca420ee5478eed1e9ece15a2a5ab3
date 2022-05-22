@@ -1,0 +1,2 @@
+
+4966b6556bc558f7a70f2d365025a60f3b4c4dd1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/glob-base","integrity":null,"time":1653031783719,"size":"262","metadata":{"time":1653031783719,"url":"https://registry.npm.taobao.org/glob-base","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:44 GMT","location":"https://registry.npmmirror.com/glob-base"},"options":{"compress":true},"status":301}}

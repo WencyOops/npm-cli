@@ -1,0 +1,2 @@
+
+a37e0f8254152f28e36bf2eb26c678bcd39f07dd	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/symbol-tree","integrity":null,"time":1653031782956,"size":"262","metadata":{"time":1653031782956,"url":"https://registry.npm.taobao.org/symbol-tree","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/symbol-tree"},"options":{"compress":true},"status":301}}

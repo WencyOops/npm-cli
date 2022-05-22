@@ -1,0 +1,2 @@
+
+c600a7c7eec62432d36e90776049bada1aebe6ff	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/http-deceiver","integrity":null,"time":1653031788259,"size":"262","metadata":{"time":1653031788259,"url":"https://registry.npm.taobao.org/http-deceiver","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/http-deceiver"},"options":{"compress":true},"status":301}}

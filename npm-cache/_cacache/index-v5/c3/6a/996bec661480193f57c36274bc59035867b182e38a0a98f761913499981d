@@ -1,0 +1,2 @@
+
+caf02d944988c4ef802027bbaa599b086e7130b3	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/thunky","integrity":null,"time":1653031788374,"size":"262","metadata":{"time":1653031788374,"url":"https://registry.npm.taobao.org/thunky","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/thunky"},"options":{"compress":true},"status":301}}

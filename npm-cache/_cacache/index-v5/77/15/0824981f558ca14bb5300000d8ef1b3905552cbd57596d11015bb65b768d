@@ -1,0 +1,2 @@
+
+09230619aae65a2a55bdb17886df05a6028f2558	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/node-forge","integrity":null,"time":1653031788253,"size":"262","metadata":{"time":1653031788253,"url":"https://registry.npm.taobao.org/node-forge","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/node-forge"},"options":{"compress":true},"status":301}}

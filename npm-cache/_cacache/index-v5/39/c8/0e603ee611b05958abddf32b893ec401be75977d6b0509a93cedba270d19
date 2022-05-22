@@ -1,0 +1,2 @@
+
+fd2eaac52ebc88cda55d5479e8fb8b02e2748b36	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/utila","integrity":null,"time":1653031785637,"size":"262","metadata":{"time":1653031785637,"url":"https://registry.npm.taobao.org/utila","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/utila"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+3fc56454d5ebd486c988613ffeda2fdb1d5e87df	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/browserify-sign","integrity":null,"time":1653031787475,"size":"262","metadata":{"time":1653031787475,"url":"https://registry.npm.taobao.org/browserify-sign","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/browserify-sign"},"options":{"compress":true},"status":301}}

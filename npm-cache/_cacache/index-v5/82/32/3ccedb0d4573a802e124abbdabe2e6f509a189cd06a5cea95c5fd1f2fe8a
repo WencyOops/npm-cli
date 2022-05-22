@@ -1,0 +1,2 @@
+
+529e678ff6d6fd26eb0c1dcc880ee3f99ee0a55f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/ssri","integrity":null,"time":1653031780807,"size":"262","metadata":{"time":1653031780807,"url":"https://registry.npm.taobao.org/ssri","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/ssri"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+3b7080ce962691f10ea20819b4670f65a62c1ca4	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-traverse","integrity":null,"time":1653031778863,"size":"262","metadata":{"time":1653031778863,"url":"https://registry.npm.taobao.org/babel-traverse","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/babel-traverse"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+64184dc851df808c6e934b826324a2f35cb48c2d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/postcss-discard-unused","integrity":null,"time":1653031781141,"size":"262","metadata":{"time":1653031781141,"url":"https://registry.npm.taobao.org/postcss-discard-unused","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/postcss-discard-unused"},"options":{"compress":true},"status":301}}

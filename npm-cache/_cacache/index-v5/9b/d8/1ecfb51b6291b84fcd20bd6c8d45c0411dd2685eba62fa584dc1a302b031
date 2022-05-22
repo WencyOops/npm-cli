@@ -1,0 +1,2 @@
+
+b2c6c1ae65ba3c6353ac4bf8b63cf21a581b3521	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/number-is-nan","integrity":null,"time":1653031790249,"size":"262","metadata":{"time":1653031790249,"url":"https://registry.npm.taobao.org/number-is-nan","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:50 GMT","location":"https://registry.npmmirror.com/number-is-nan"},"options":{"compress":true},"status":301}}

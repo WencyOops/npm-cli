@@ -1,0 +1,2 @@
+
+279d6f6375a31837fee841e28b41ea46aa54c18f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/postcss-merge-rules","integrity":null,"time":1653031781144,"size":"262","metadata":{"time":1653031781144,"url":"https://registry.npm.taobao.org/postcss-merge-rules","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/postcss-merge-rules"},"options":{"compress":true},"status":301}}

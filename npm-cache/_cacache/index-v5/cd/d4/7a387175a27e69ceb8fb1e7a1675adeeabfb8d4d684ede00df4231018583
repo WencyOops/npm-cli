@@ -1,0 +1,2 @@
+
+bba4d436ed99aead7606ddb2981cefdb9daad33c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/postcss-minify-params","integrity":null,"time":1653031781150,"size":"262","metadata":{"time":1653031781149,"url":"https://registry.npm.taobao.org/postcss-minify-params","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/postcss-minify-params"},"options":{"compress":true},"status":301}}

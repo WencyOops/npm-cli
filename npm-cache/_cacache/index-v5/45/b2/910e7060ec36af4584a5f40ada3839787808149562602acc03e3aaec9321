@@ -1,0 +1,2 @@
+
+5ad28c15f36fa5117025340e50c8975a66c57b7d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jest-leak-detector","integrity":null,"time":1653031782501,"size":"262","metadata":{"time":1653031782501,"url":"https://registry.npm.taobao.org/jest-leak-detector","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/jest-leak-detector"},"options":{"compress":true},"status":301}}

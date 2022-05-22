@@ -1,0 +1,2 @@
+
+7622a10f54f03cc852764eead5795024b8b02ed3	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jest-haste-map","integrity":null,"time":1653031781898,"size":"262","metadata":{"time":1653031781898,"url":"https://registry.npm.taobao.org/jest-haste-map","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/jest-haste-map"},"options":{"compress":true},"status":301}}

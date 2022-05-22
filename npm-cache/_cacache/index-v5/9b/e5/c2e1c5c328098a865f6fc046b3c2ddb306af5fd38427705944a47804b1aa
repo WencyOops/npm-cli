@@ -1,0 +1,2 @@
+
+ff4d35688fbde07f78a242d5423b3ce1da236366	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/html-encoding-sniffer","integrity":null,"time":1653031782948,"size":"262","metadata":{"time":1653031782948,"url":"https://registry.npm.taobao.org/html-encoding-sniffer","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/html-encoding-sniffer"},"options":{"compress":true},"status":301}}

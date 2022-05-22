@@ -1,0 +1,2 @@
+
+055e23caafbfa8813ae327795baeeef4295e5b62	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/fast-levenshtein","integrity":null,"time":1653031783648,"size":"262","metadata":{"time":1653031783648,"url":"https://registry.npm.taobao.org/fast-levenshtein","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/fast-levenshtein"},"options":{"compress":true},"status":301}}

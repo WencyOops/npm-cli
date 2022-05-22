@@ -1,0 +1,2 @@
+
+4d76a1451d308d5bb89f963e14678cb25d7c973d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/lazy-cache","integrity":null,"time":1653031790398,"size":"262","metadata":{"time":1653031790398,"url":"https://registry.npm.taobao.org/lazy-cache","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:50 GMT","location":"https://registry.npmmirror.com/lazy-cache"},"options":{"compress":true},"status":301}}

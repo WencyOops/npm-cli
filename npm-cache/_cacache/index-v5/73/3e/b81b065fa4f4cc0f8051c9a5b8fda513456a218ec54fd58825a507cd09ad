@@ -1,0 +1,2 @@
+
+256265c33f92b8257afc61d3914bd5d7354e1d80	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/vendors","integrity":null,"time":1653031781376,"size":"262","metadata":{"time":1653031781376,"url":"https://registry.npm.taobao.org/vendors","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/vendors"},"options":{"compress":true},"status":301}}

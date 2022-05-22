@@ -1,0 +1,2 @@
+
+2ba2c984858780af0a4d7857455ea12f2c6da1ca	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jest-environment-node","integrity":null,"time":1653031782491,"size":"262","metadata":{"time":1653031782491,"url":"https://registry.npm.taobao.org/jest-environment-node","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/jest-environment-node"},"options":{"compress":true},"status":301}}

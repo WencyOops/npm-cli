@@ -1,0 +1,2 @@
+
+8e780ebf60024db6b663f7f80f6af2d5889682f4	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/postcss-calc","integrity":null,"time":1653031781140,"size":"262","metadata":{"time":1653031781140,"url":"https://registry.npm.taobao.org/postcss-calc","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/postcss-calc"},"options":{"compress":true},"status":301}}

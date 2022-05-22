@@ -1,0 +1,2 @@
+
+4f203b171886c1016a5f1b674dca5de76ecf8ec1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/js-beautify","integrity":null,"time":1653031779075,"size":"262","metadata":{"time":1653031779075,"url":"https://registry.npm.taobao.org/js-beautify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/js-beautify"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+e64377b76bf4ebc49b1658990a0806e177226ef4	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/uglifyjs-webpack-plugin","integrity":null,"time":1653031777903,"size":"262","metadata":{"time":1653031777903,"url":"https://registry.npm.taobao.org/uglifyjs-webpack-plugin","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:38 GMT","location":"https://registry.npmmirror.com/uglifyjs-webpack-plugin"},"options":{"compress":true},"status":301}}

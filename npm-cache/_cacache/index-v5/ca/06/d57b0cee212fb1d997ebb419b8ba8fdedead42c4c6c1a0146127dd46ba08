@@ -1,0 +1,2 @@
+
+631502f307ece1249cb761b29a37de8aceb10e86	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-code-frame","integrity":null,"time":1653031778857,"size":"262","metadata":{"time":1653031778856,"url":"https://registry.npm.taobao.org/babel-code-frame","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/babel-code-frame"},"options":{"compress":true},"status":301}}

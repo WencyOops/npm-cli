@@ -1,0 +1,2 @@
+
+3e485ec8faf3729b548f7f954443dd8e9d8d600e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/hmac-drbg","integrity":null,"time":1653031787752,"size":"262","metadata":{"time":1653031787752,"url":"https://registry.npm.taobao.org/hmac-drbg","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/hmac-drbg"},"options":{"compress":true},"status":301}}

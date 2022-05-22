@@ -1,0 +1,2 @@
+
+685d108a60a388b65bc7ed37e4614604de8fbbdc	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/brorand","integrity":null,"time":1653031787761,"size":"262","metadata":{"time":1653031787761,"url":"https://registry.npm.taobao.org/brorand","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/brorand"},"options":{"compress":true},"status":301}}

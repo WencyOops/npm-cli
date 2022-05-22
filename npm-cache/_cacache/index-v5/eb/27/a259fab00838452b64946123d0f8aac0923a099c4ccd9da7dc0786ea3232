@@ -1,0 +1,2 @@
+
+f119a5702499a491c2637ad4a05a3babe9470a0b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/internal-ip","integrity":null,"time":1653031779146,"size":"262","metadata":{"time":1653031779146,"url":"https://registry.npm.taobao.org/internal-ip","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/internal-ip"},"options":{"compress":true},"status":301}}

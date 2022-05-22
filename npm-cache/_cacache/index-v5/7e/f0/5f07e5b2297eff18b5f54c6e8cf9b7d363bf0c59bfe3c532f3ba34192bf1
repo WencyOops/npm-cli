@@ -1,0 +1,2 @@
+
+217254f1a41fd3a15c7c5df52838632f7d17d5be	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@types%2fnightwatch","integrity":null,"time":1653032675669,"size":"262","metadata":{"time":1653032675669,"url":"https://registry.npm.taobao.org/@types%2fnightwatch","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:44:36 GMT","location":"https://registry.npmmirror.com/@types%2fnightwatch"},"options":{"compress":true},"status":301}}

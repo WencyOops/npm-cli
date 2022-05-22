@@ -1,0 +1,2 @@
+
+efed66802dd960bd0c5dddf98e3c39293782e46c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@types%2fcross-spawn","integrity":null,"time":1653032675656,"size":"262","metadata":{"time":1653032675656,"url":"https://registry.npm.taobao.org/@types%2fcross-spawn","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:44:35 GMT","location":"https://registry.npmmirror.com/@types%2fcross-spawn"},"options":{"compress":true},"status":301}}

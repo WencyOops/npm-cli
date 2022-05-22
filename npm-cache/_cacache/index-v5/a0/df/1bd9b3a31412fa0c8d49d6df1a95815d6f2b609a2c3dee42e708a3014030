@@ -1,0 +1,2 @@
+
+942cf208700dfa7914497b36e9abb87846692570	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/request-promise-core","integrity":null,"time":1653031783572,"size":"262","metadata":{"time":1653031783572,"url":"https://registry.npm.taobao.org/request-promise-core","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/request-promise-core"},"options":{"compress":true},"status":301}}

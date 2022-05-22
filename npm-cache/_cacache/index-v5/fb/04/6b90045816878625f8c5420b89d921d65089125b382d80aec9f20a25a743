@@ -1,0 +1,2 @@
+
+121313556c76f3522c8c33347c68f9193f4d0bb6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/unzip-response","integrity":null,"time":1653031611343,"size":"262","metadata":{"time":1653031611343,"url":"https://registry.npm.taobao.org/unzip-response","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:26:51 GMT","location":"https://registry.npmmirror.com/unzip-response"},"options":{"compress":true},"status":301}}

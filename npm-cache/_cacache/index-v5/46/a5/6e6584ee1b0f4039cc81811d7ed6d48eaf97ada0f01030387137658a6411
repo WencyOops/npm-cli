@@ -1,0 +1,2 @@
+
+f821fa9318a51c9f6160aeb1ff1dab1265617312	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/diff","integrity":null,"time":1653031783349,"size":"262","metadata":{"time":1653031783349,"url":"https://registry.npm.taobao.org/diff","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/diff"},"options":{"compress":true},"status":301}}

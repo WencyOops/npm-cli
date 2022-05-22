@@ -1,0 +1,2 @@
+
+cc23f29c94de4f08eec9cdfd5871fb80df454f1d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-path-inside","integrity":null,"time":1653031781459,"size":"262","metadata":{"time":1653031781459,"url":"https://registry.npm.taobao.org/is-path-inside","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/is-path-inside"},"options":{"compress":true},"status":301}}

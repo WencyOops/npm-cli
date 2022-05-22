@@ -1,0 +1,2 @@
+
+a9afb7e23215d33da6b1f90d22b27b3464b35dcb	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/create-error-class","integrity":null,"time":1653031611342,"size":"262","metadata":{"time":1653031611342,"url":"https://registry.npm.taobao.org/create-error-class","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:26:51 GMT","location":"https://registry.npmmirror.com/create-error-class"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+f2d3d0cd93d69e3a1c9478dfa9712501d191e285	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jest-mock","integrity":null,"time":1653031782498,"size":"262","metadata":{"time":1653031782498,"url":"https://registry.npm.taobao.org/jest-mock","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/jest-mock"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+a600b2375810b990ed081f76a113ef70fc022033	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/invert-kv","integrity":null,"time":1653031788802,"size":"262","metadata":{"time":1653031788802,"url":"https://registry.npm.taobao.org/invert-kv","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:49 GMT","location":"https://registry.npmmirror.com/invert-kv"},"options":{"compress":true},"status":301}}

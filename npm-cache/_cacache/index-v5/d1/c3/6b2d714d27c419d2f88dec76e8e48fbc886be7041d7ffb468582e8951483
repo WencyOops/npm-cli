@@ -1,0 +1,2 @@
+
+cb12d05dd0e74fc934ac39213c2132d30eaf11f6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-preset-vue","integrity":null,"time":1653031786749,"size":"262","metadata":{"time":1653031786749,"url":"https://registry.npm.taobao.org/babel-preset-vue","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/babel-preset-vue"},"options":{"compress":true},"status":301}}

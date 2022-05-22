@@ -1,0 +1,2 @@
+
+b4717bd591ee579c95cc450e97f1fd772fae327b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/fsevents","integrity":null,"time":1653031783233,"size":"262","metadata":{"time":1653031783233,"url":"https://registry.npm.taobao.org/fsevents","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/fsevents"},"options":{"compress":true},"status":301}}

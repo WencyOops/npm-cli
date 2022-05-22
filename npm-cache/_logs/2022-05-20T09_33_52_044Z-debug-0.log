@@ -1,0 +1,138 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.10.0
+2 info using node@v16.15.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 0ms
+10 timing config:load:file:C:\Users\Cell\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\Cell\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 10ms
+18 timing npm:load:configload Completed in 10ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install yarn
+22 verbose argv "install" "--global" "yarn"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 3ms
+25 timing npm:load:display Completed in 4ms
+26 verbose logfile logs-max:10 dir:C:\Users\Cell\AppData\Local\npm-cache\_logs
+27 verbose logfile C:\Users\Cell\AppData\Local\npm-cache\_logs\2022-05-20T09_33_52_044Z-debug-0.log
+28 timing npm:load:logFile Completed in 6ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 24ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 2 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 5ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest yarn@*
+39 http fetch GET 200 https://registry.npmmirror.com/yarn 167ms (cache miss)
+40 silly placeDep ROOT yarn@1.22.18 OK for:  want: *
+41 timing idealTree:#root Completed in 177ms
+42 timing idealTree:node_modules/yarn Completed in 0ms
+43 timing idealTree:buildDeps Completed in 178ms
+44 timing idealTree:fixDepFlags Completed in 0ms
+45 timing idealTree Completed in 187ms
+46 timing reify:loadTrees Completed in 192ms
+47 timing reify:diffTrees Completed in 1ms
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\node_modules\\yarn',
+48 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarn',
+48 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarn.cmd',
+48 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarn.ps1',
+48 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarnpkg',
+48 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarnpkg.cmd',
+48 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarnpkg.ps1'
+48 silly reify ]
+49 silly reify moves {
+49 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\node_modules\\yarn': 'C:\\Users\\Cell\\AppData\\Roaming\\npm\\node_modules\\.yarn-EYpgTple',
+49 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarn': 'C:\\Users\\Cell\\AppData\\Roaming\\npm\\.yarn-XOGMvetZ',
+49 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarn.cmd': 'C:\\Users\\Cell\\AppData\\Roaming\\npm\\.yarn.cmd-FsPeMbqJ',
+49 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarn.ps1': 'C:\\Users\\Cell\\AppData\\Roaming\\npm\\.yarn.ps1-gSq08Khf',
+49 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarnpkg': 'C:\\Users\\Cell\\AppData\\Roaming\\npm\\.yarnpkg-qG57auIX',
+49 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarnpkg.cmd': 'C:\\Users\\Cell\\AppData\\Roaming\\npm\\.yarnpkg.cmd-biHfsKtP',
+49 silly reify   'C:\\Users\\Cell\\AppData\\Roaming\\npm\\yarnpkg.ps1': 'C:\\Users\\Cell\\AppData\\Roaming\\npm\\.yarnpkg.ps1-sDwlXDX8'
+49 silly reify }
+50 timing reify:retireShallow Completed in 9ms
+51 timing reify:createSparse Completed in 1ms
+52 timing reify:loadBundles Completed in 0ms
+53 silly audit bulk request { yarn: [ '1.22.18' ] }
+54 silly tarball no local data for yarn@https://registry.npmmirror.com/yarn/-/yarn-1.22.18.tgz. Extracting by manifest.
+55 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 38ms (cache skip)
+56 silly audit bulk request failed <h1>404 Not Found</h1>
+57 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 24ms (cache skip)
+58 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick
+58 verbose audit error     at C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:93:15
+58 verbose audit error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+58 verbose audit error     at async Map.[getReport] (C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:333:21)
+58 verbose audit error     at async Map.run (C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+58 verbose audit error   headers: [Object: null prototype] {
+58 verbose audit error     server: [ 'Tengine' ],
+58 verbose audit error     'content-type': [ 'text/html; charset=utf-8' ],
+58 verbose audit error     'content-length': [ '41' ],
+58 verbose audit error     connection: [ 'keep-alive' ],
+58 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+58 verbose audit error     date: [ 'Fri, 20 May 2022 09:33:52 GMT' ],
+58 verbose audit error     vary: [ 'Origin' ],
+58 verbose audit error     'x-frame-options': [ 'SAMEORIGIN' ],
+58 verbose audit error     'x-xss-protection': [ '1; mode=block' ],
+58 verbose audit error     'x-content-type-options': [ 'nosniff' ],
+58 verbose audit error     'x-download-options': [ 'noopen' ],
+58 verbose audit error     'x-readtime': [ '1.932' ],
+58 verbose audit error     'content-encoding': [ 'gzip' ],
+58 verbose audit error     'ali-swift-global-savetime': [ '1653039232' ],
+58 verbose audit error     via: [
+58 verbose audit error       'cache10.l2cn1813[41,41,404-1280,M], cache48.l2cn1813[42,0], kunlun3.cn1361[0,0,404-0,H], kunlun6.cn1361[2,0]'
+58 verbose audit error     ],
+58 verbose audit error     age: [ '0' ],
+58 verbose audit error     'x-cache': [ 'HIT TCP_MEM_HIT dirn:-2:-2' ],
+58 verbose audit error     'x-swift-savetime': [ 'Fri, 20 May 2022 09:33:52 GMT' ],
+58 verbose audit error     'x-swift-cachetime': [ '1' ],
+58 verbose audit error     'timing-allow-origin': [ '*' ],
+58 verbose audit error     eagleid: [ 'b706e79a16530392329561240e' ],
+58 verbose audit error     'x-fetch-attempts': [ '1' ],
+58 verbose audit error     'x-local-cache-status': [ 'skip' ]
+58 verbose audit error   },
+58 verbose audit error   statusCode: 404,
+58 verbose audit error   code: 'E404',
+58 verbose audit error   method: 'POST',
+58 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+58 verbose audit error   body: <Buffer 3c 68 31 3e 34 30 34 20 4e 6f 74 20 46 6f 75 6e 64 3c 2f 68 31 3e>,
+58 verbose audit error   pkgid: undefined
+58 verbose audit error }
+59 silly audit error <h1>404 Not Found</h1>
+60 timing auditReport:getReport Completed in 67ms
+61 silly audit report null
+62 timing reify:audit Completed in 67ms
+63 http fetch GET 200 https://cdn.npmmirror.com/packages/yarn/1.22.18/yarn-1.22.18.tgz 154ms (cache miss)
+64 timing reifyNode:node_modules/yarn Completed in 163ms
+65 timing reify:unpack Completed in 163ms
+66 timing reify:unretire Completed in 0ms
+67 timing build:queue Completed in 1ms
+68 info run yarn@1.22.18 preinstall node_modules/yarn :; (node ./preinstall.js > /dev/null 2>&1 || true)
+69 info run yarn@1.22.18 preinstall { code: 0, signal: null }
+70 timing build:run:preinstall:node_modules/yarn Completed in 23ms
+71 timing build:run:preinstall Completed in 24ms
+72 timing build:link:node_modules/yarn Completed in 7ms
+73 timing build:link Completed in 7ms
+74 timing build:deps Completed in 32ms
+75 timing build Completed in 32ms
+76 timing reify:build Completed in 32ms
+77 timing reify:trash Completed in 5ms
+78 timing reify Completed in 417ms
+79 silly CHANGE node_modules/yarn
+80 timing command:install Completed in 420ms
+81 verbose exit 0
+82 timing npm Completed in 639ms
+83 info ok

@@ -1,0 +1,2 @@
+
+64d69f087ce5b8ff6b3e5cbfe2249391588f57e8	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/html-webpack-plugin","integrity":null,"time":1653031777413,"size":"262","metadata":{"time":1653031777413,"url":"https://registry.npm.taobao.org/html-webpack-plugin","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:37 GMT","location":"https://registry.npmmirror.com/html-webpack-plugin"},"options":{"compress":true},"status":301}}

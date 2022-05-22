@@ -1,0 +1,2 @@
+
+7c7db0d83cae1d90cb2d6cae0bd7423324750232	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/chokidar","integrity":null,"time":1653031779135,"size":"262","metadata":{"time":1653031779135,"url":"https://registry.npm.taobao.org/chokidar","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/chokidar"},"options":{"compress":true},"status":301}}

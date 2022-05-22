@@ -1,0 +1,2 @@
+
+7fa9516fe0363c98bf23576f13696f4b00022329	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/html-comment-regex","integrity":null,"time":1653031785040,"size":"262","metadata":{"time":1653031785040,"url":"https://registry.npm.taobao.org/html-comment-regex","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/html-comment-regex"},"options":{"compress":true},"status":301}}

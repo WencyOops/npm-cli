@@ -1,0 +1,2 @@
+
+4abe2e6d4f23ef47a71e61c5bef0a61f9eb8b686	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/uglify-es","integrity":null,"time":1653031779066,"size":"262","metadata":{"time":1653031779066,"url":"https://registry.npm.taobao.org/uglify-es","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/uglify-es"},"options":{"compress":true},"status":301}}

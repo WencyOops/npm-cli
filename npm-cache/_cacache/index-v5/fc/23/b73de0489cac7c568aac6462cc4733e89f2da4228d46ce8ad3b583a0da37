@@ -1,0 +1,2 @@
+
+8c886bc7c350f048ec753289502e96cbed08dd16	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/alphanum-sort","integrity":null,"time":1653031781375,"size":"262","metadata":{"time":1653031781375,"url":"https://registry.npm.taobao.org/alphanum-sort","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/alphanum-sort"},"options":{"compress":true},"status":301}}

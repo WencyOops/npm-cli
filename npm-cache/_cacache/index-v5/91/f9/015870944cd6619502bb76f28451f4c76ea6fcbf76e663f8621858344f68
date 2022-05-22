@@ -1,0 +1,2 @@
+
+c48e576dbb5d87323e344a400e84bea1cdfc1d4b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-messages","integrity":null,"time":1653031778854,"size":"262","metadata":{"time":1653031778854,"url":"https://registry.npm.taobao.org/babel-messages","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/babel-messages"},"options":{"compress":true},"status":301}}

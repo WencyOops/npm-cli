@@ -1,0 +1,2 @@
+
+76f6be15ddb2902da90fbc8e53719e61e5cc97b0	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/clean-css","integrity":null,"time":1653031781736,"size":"262","metadata":{"time":1653031781736,"url":"https://registry.npm.taobao.org/clean-css","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/clean-css"},"options":{"compress":true},"status":301}}

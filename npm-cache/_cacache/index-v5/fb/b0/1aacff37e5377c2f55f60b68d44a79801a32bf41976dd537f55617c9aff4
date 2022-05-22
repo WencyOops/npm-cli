@@ -1,0 +1,2 @@
+
+f56b23b20760b6e70d7b6e986a83584d77652067	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/growl","integrity":null,"time":1653031784010,"size":"262","metadata":{"time":1653031784010,"url":"https://registry.npm.taobao.org/growl","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:44 GMT","location":"https://registry.npmmirror.com/growl"},"options":{"compress":true},"status":301}}

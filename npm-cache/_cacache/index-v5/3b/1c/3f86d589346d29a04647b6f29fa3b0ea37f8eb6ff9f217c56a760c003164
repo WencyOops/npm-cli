@@ -1,0 +1,2 @@
+
+8990dc925950e0bcccdf77cbe197830eca44cf38	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/mississippi","integrity":null,"time":1653031780807,"size":"262","metadata":{"time":1653031780807,"url":"https://registry.npm.taobao.org/mississippi","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/mississippi"},"options":{"compress":true},"status":301}}

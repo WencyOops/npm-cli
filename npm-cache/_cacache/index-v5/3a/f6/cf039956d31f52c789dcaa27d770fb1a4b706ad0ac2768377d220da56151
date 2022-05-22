@@ -1,0 +1,2 @@
+
+cd17059f320a1f4da2dc1e70c38a08608f63846d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/istanbul-lib-hook","integrity":null,"time":1653031782496,"size":"262","metadata":{"time":1653031782496,"url":"https://registry.npm.taobao.org/istanbul-lib-hook","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/istanbul-lib-hook"},"options":{"compress":true},"status":301}}

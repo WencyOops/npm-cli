@@ -1,0 +1,2 @@
+
+51fb006ad474476130001b16614769c7dae73864	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/levn","integrity":null,"time":1653031783647,"size":"262","metadata":{"time":1653031783647,"url":"https://registry.npm.taobao.org/levn","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/levn"},"options":{"compress":true},"status":301}}

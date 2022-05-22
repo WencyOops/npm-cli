@@ -1,0 +1,2 @@
+
+9cd824343c666a539cd26897c509a26cd5a2b2b2	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/left-pad","integrity":null,"time":1653031782950,"size":"262","metadata":{"time":1653031782950,"url":"https://registry.npm.taobao.org/left-pad","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/left-pad"},"options":{"compress":true},"status":301}}

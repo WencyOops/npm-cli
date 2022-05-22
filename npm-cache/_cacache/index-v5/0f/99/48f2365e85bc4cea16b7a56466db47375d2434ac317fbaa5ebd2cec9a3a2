@@ -1,0 +1,2 @@
+
+3cb135e94d66cdf0307121ee256cbeaf70da72ba	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-preset-stage-3","integrity":null,"time":1653031778944,"size":"262","metadata":{"time":1653031778944,"url":"https://registry.npm.taobao.org/babel-preset-stage-3","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/babel-preset-stage-3"},"options":{"compress":true},"status":301}}

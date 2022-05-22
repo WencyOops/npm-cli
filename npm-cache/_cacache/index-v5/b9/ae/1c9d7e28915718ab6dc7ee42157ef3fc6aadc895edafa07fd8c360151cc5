@@ -1,0 +1,2 @@
+
+66292689914e5e03414554514e29cf13714b51b1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-helper-regex","integrity":null,"time":1653031780309,"size":"262","metadata":{"time":1653031780309,"url":"https://registry.npm.taobao.org/babel-helper-regex","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:40 GMT","location":"https://registry.npmmirror.com/babel-helper-regex"},"options":{"compress":true},"status":301}}

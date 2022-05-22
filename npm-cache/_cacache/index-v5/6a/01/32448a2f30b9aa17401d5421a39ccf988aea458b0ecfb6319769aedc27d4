@@ -1,0 +1,2 @@
+
+9fa104665dd5948d07fd990a05a1a6d0e998e515	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/escope","integrity":null,"time":1653031778882,"size":"262","metadata":{"time":1653031778882,"url":"https://registry.npm.taobao.org/escope","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/escope"},"options":{"compress":true},"status":301}}

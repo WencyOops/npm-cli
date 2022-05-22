@@ -1,0 +1,2 @@
+
+c46dc1b2ebd20a18c56ec788862400b352e057ef	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-path-cwd","integrity":null,"time":1653031780677,"size":"262","metadata":{"time":1653031780677,"url":"https://registry.npm.taobao.org/is-path-cwd","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/is-path-cwd"},"options":{"compress":true},"status":301}}

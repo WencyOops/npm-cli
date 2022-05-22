@@ -1,0 +1,2 @@
+
+62726508ee95ec1aa8557d23364d0b71ed05a09d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/gzip-size","integrity":null,"time":1653031779115,"size":"262","metadata":{"time":1653031779115,"url":"https://registry.npm.taobao.org/gzip-size","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/gzip-size"},"options":{"compress":true},"status":301}}

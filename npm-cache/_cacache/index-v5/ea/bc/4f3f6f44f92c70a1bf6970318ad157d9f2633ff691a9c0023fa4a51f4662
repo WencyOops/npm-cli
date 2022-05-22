@@ -1,0 +1,2 @@
+
+e2cea3decfb3aec5f00060b29151d3d1d5a4de3a	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/react-is","integrity":null,"time":1653032676240,"size":"262","metadata":{"time":1653032676240,"url":"https://registry.npm.taobao.org/react-is","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:44:36 GMT","location":"https://registry.npmmirror.com/react-is"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,1020 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.10.0
+2 info using node@v16.15.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:C:\Users\Cell\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\Cell\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:credentials Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 10ms
+18 timing npm:load:configload Completed in 10ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install webpack-cli
+22 verbose argv "install" "--global" "webpack-cli"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 3ms
+25 timing npm:load:display Completed in 4ms
+26 verbose logfile logs-max:10 dir:C:\Users\Cell\AppData\Local\npm-cache\_logs
+27 verbose logfile C:\Users\Cell\AppData\Local\npm-cache\_logs\2022-05-20T09_33_42_450Z-debug-0.log
+28 timing npm:load:logFile Completed in 5ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 23ms
+32 timing arborist:ctor Completed in 0ms
+33 silly logfile start cleaning logs, removing 2 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 6ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest webpack-cli@*
+39 http fetch GET 200 https://registry.npmmirror.com/webpack-cli 126ms (cache miss)
+40 silly placeDep ROOT webpack-cli@4.9.2 OK for:  want: *
+41 silly fetch manifest webpack@4.x.x || 5.x.x
+42 silly fetch manifest @discoveryjs/json-ext@^0.5.0
+43 silly fetch manifest @webpack-cli/configtest@^1.1.1
+44 silly fetch manifest @webpack-cli/info@^1.4.1
+45 silly fetch manifest @webpack-cli/serve@^1.6.1
+46 silly fetch manifest colorette@^2.0.14
+47 silly fetch manifest commander@^7.0.0
+48 silly fetch manifest execa@^5.0.0
+49 silly fetch manifest fastest-levenshtein@^1.0.12
+50 silly fetch manifest import-local@^3.0.2
+51 silly fetch manifest interpret@^2.2.0
+52 silly fetch manifest rechoir@^0.7.0
+53 silly fetch manifest webpack-merge@^5.7.3
+54 http fetch GET 200 https://registry.npmmirror.com/webpack 59ms (cache hit)
+55 http fetch GET 200 https://registry.npmmirror.com/@discoveryjs%2fjson-ext 75ms (cache miss)
+56 http fetch GET 200 https://registry.npmmirror.com/commander 103ms (cache hit)
+57 http fetch GET 200 https://registry.npmmirror.com/execa 108ms (cache hit)
+58 http fetch GET 200 https://registry.npmmirror.com/webpack-merge 111ms (cache revalidated)
+59 http fetch GET 200 https://registry.npmmirror.com/colorette 118ms (cache miss)
+60 http fetch GET 200 https://registry.npmmirror.com/interpret 118ms (cache revalidated)
+61 http fetch GET 200 https://registry.npmmirror.com/rechoir 124ms (cache revalidated)
+62 http fetch GET 200 https://registry.npmmirror.com/import-local 126ms (cache revalidated)
+63 http fetch GET 200 https://registry.npmmirror.com/@webpack-cli%2finfo 148ms (cache miss)
+64 http fetch GET 200 https://registry.npmmirror.com/@webpack-cli%2fserve 163ms (cache miss)
+65 http fetch GET 200 https://registry.npmmirror.com/fastest-levenshtein 164ms (cache miss)
+66 http fetch GET 200 https://registry.npmmirror.com/@webpack-cli%2fconfigtest 190ms (cache miss)
+67 timing idealTree:#root Completed in 330ms
+68 silly fetch manifest webpack-cli@4.x.x
+69 silly placeDep node_modules/webpack-cli @discoveryjs/json-ext@0.5.7 OK for: webpack-cli@4.9.2 want: ^0.5.0
+70 silly placeDep node_modules/webpack-cli @webpack-cli/configtest@1.1.1 OK for: webpack-cli@4.9.2 want: ^1.1.1
+71 silly placeDep node_modules/webpack-cli webpack@5.72.1 OK for: @webpack-cli/configtest@1.1.1 want: 4.x.x || 5.x.x
+72 silly placeDep node_modules/webpack-cli @webpack-cli/info@1.4.1 OK for: webpack-cli@4.9.2 want: ^1.4.1
+73 silly placeDep node_modules/webpack-cli @webpack-cli/serve@1.6.1 OK for: webpack-cli@4.9.2 want: ^1.6.1
+74 silly placeDep node_modules/webpack-cli colorette@2.0.16 OK for: webpack-cli@4.9.2 want: ^2.0.14
+75 silly placeDep node_modules/webpack-cli commander@7.2.0 OK for: webpack-cli@4.9.2 want: ^7.0.0
+76 silly placeDep node_modules/webpack-cli execa@5.1.1 OK for: webpack-cli@4.9.2 want: ^5.0.0
+77 silly placeDep node_modules/webpack-cli fastest-levenshtein@1.0.12 OK for: webpack-cli@4.9.2 want: ^1.0.12
+78 silly placeDep node_modules/webpack-cli import-local@3.1.0 OK for: webpack-cli@4.9.2 want: ^3.0.2
+79 silly placeDep node_modules/webpack-cli interpret@2.2.0 OK for: webpack-cli@4.9.2 want: ^2.2.0
+80 silly placeDep node_modules/webpack-cli rechoir@0.7.1 OK for: webpack-cli@4.9.2 want: ^0.7.0
+81 silly placeDep node_modules/webpack-cli webpack-merge@5.8.0 OK for: webpack-cli@4.9.2 want: ^5.7.3
+82 silly fetch manifest @types/eslint-scope@^3.7.3
+83 silly fetch manifest @types/estree@^0.0.51
+84 silly fetch manifest @webassemblyjs/ast@1.11.1
+85 silly fetch manifest @webassemblyjs/wasm-edit@1.11.1
+86 silly fetch manifest @webassemblyjs/wasm-parser@1.11.1
+87 silly fetch manifest acorn@^8.4.1
+88 silly fetch manifest acorn-import-assertions@^1.7.6
+89 silly fetch manifest browserslist@^4.14.5
+90 silly fetch manifest chrome-trace-event@^1.0.2
+91 silly fetch manifest enhanced-resolve@^5.9.3
+92 silly fetch manifest es-module-lexer@^0.9.0
+93 silly fetch manifest eslint-scope@5.1.1
+94 silly fetch manifest events@^3.2.0
+95 silly fetch manifest glob-to-regexp@^0.4.1
+96 silly fetch manifest graceful-fs@^4.2.9
+97 silly fetch manifest json-parse-even-better-errors@^2.3.1
+98 silly fetch manifest loader-runner@^4.2.0
+99 silly fetch manifest mime-types@^2.1.27
+100 silly fetch manifest neo-async@^2.6.2
+101 silly fetch manifest schema-utils@^3.1.0
+102 silly fetch manifest tapable@^2.1.1
+103 silly fetch manifest terser-webpack-plugin@^5.1.3
+104 silly fetch manifest watchpack@^2.3.1
+105 silly fetch manifest webpack-sources@^3.2.3
+106 silly fetch manifest envinfo@^7.7.3
+107 silly fetch manifest cross-spawn@^7.0.3
+108 silly fetch manifest get-stream@^6.0.0
+109 silly fetch manifest human-signals@^2.1.0
+110 silly fetch manifest is-stream@^2.0.0
+111 silly fetch manifest merge-stream@^2.0.0
+112 silly fetch manifest npm-run-path@^4.0.1
+113 silly fetch manifest onetime@^5.1.2
+114 silly fetch manifest signal-exit@^3.0.3
+115 silly fetch manifest strip-final-newline@^2.0.0
+116 silly fetch manifest pkg-dir@^4.2.0
+117 silly fetch manifest resolve-cwd@^3.0.0
+118 silly fetch manifest resolve@^1.9.0
+119 silly fetch manifest clone-deep@^4.0.1
+120 silly fetch manifest wildcard@^2.0.0
+121 http fetch GET 200 https://registry.npmmirror.com/wildcard 112ms (cache miss)
+122 http fetch GET 200 https://registry.npmmirror.com/@types%2festree 160ms (cache hit)
+123 http fetch GET 200 https://registry.npmmirror.com/acorn-import-assertions 158ms (cache hit)
+124 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-parser 160ms (cache hit)
+125 http fetch GET 200 https://registry.npmmirror.com/@types%2feslint-scope 162ms (cache hit)
+126 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-edit 161ms (cache hit)
+127 http fetch GET 200 https://registry.npmmirror.com/eslint-scope 159ms (cache hit)
+128 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fast 163ms (cache hit)
+129 http fetch GET 200 https://registry.npmmirror.com/acorn 164ms (cache hit)
+130 http fetch GET 200 https://registry.npmmirror.com/browserslist 164ms (cache hit)
+131 http fetch GET 200 https://registry.npmmirror.com/chrome-trace-event 164ms (cache hit)
+132 http fetch GET 200 https://registry.npmmirror.com/enhanced-resolve 165ms (cache hit)
+133 http fetch GET 200 https://registry.npmmirror.com/loader-runner 174ms (cache hit)
+134 http fetch GET 200 https://registry.npmmirror.com/json-parse-even-better-errors 180ms (cache hit)
+135 http fetch GET 200 https://registry.npmmirror.com/webpack-sources 177ms (cache hit)
+136 http fetch GET 200 https://registry.npmmirror.com/neo-async 180ms (cache hit)
+137 http fetch GET 200 https://registry.npmmirror.com/schema-utils 182ms (cache hit)
+138 http fetch GET 200 https://registry.npmmirror.com/mime-types 184ms (cache hit)
+139 http fetch GET 200 https://registry.npmmirror.com/watchpack 181ms (cache hit)
+140 http fetch GET 200 https://registry.npmmirror.com/tapable 183ms (cache hit)
+141 http fetch GET 200 https://registry.npmmirror.com/terser-webpack-plugin 184ms (cache hit)
+142 http fetch GET 200 https://registry.npmmirror.com/is-stream 181ms (cache hit)
+143 http fetch GET 200 https://registry.npmmirror.com/get-stream 183ms (cache hit)
+144 http fetch GET 200 https://registry.npmmirror.com/cross-spawn 200ms (cache hit)
+145 http fetch GET 200 https://registry.npmmirror.com/envinfo 205ms (cache hit)
+146 http fetch GET 200 https://registry.npmmirror.com/merge-stream 203ms (cache hit)
+147 http fetch GET 200 https://registry.npmmirror.com/pkg-dir 200ms (cache hit)
+148 http fetch GET 200 https://registry.npmmirror.com/strip-final-newline 200ms (cache hit)
+149 http fetch GET 200 https://registry.npmmirror.com/human-signals 206ms (cache hit)
+150 http fetch GET 200 https://registry.npmmirror.com/npm-run-path 203ms (cache hit)
+151 http fetch GET 200 https://registry.npmmirror.com/onetime 202ms (cache hit)
+152 http fetch GET 200 https://registry.npmmirror.com/events 215ms (cache hit)
+153 http fetch GET 200 https://registry.npmmirror.com/signal-exit 203ms (cache hit)
+154 http fetch GET 200 https://registry.npmmirror.com/clone-deep 201ms (cache hit)
+155 http fetch GET 200 https://registry.npmmirror.com/resolve 203ms (cache hit)
+156 http fetch GET 200 https://registry.npmmirror.com/graceful-fs 217ms (cache hit)
+157 http fetch GET 200 https://registry.npmmirror.com/es-module-lexer 219ms (cache hit)
+158 http fetch GET 200 https://registry.npmmirror.com/resolve-cwd 207ms (cache revalidated)
+159 http fetch GET 200 https://registry.npmmirror.com/glob-to-regexp 223ms (cache hit)
+160 timing idealTree:node_modules/webpack-cli Completed in 254ms
+161 timing idealTree:node_modules/webpack-cli/node_modules/@discoveryjs/json-ext Completed in 0ms
+162 timing idealTree:node_modules/webpack-cli/node_modules/@webpack-cli/configtest Completed in 0ms
+163 silly placeDep node_modules/webpack-cli envinfo@7.8.1 OK for: @webpack-cli/info@1.4.1 want: ^7.7.3
+164 timing idealTree:node_modules/webpack-cli/node_modules/@webpack-cli/info Completed in 1ms
+165 timing idealTree:node_modules/webpack-cli/node_modules/@webpack-cli/serve Completed in 0ms
+166 timing idealTree:node_modules/webpack-cli/node_modules/colorette Completed in 0ms
+167 timing idealTree:node_modules/webpack-cli/node_modules/commander Completed in 0ms
+168 timing idealTree:node_modules/webpack-cli/node_modules/envinfo Completed in 0ms
+169 silly placeDep node_modules/webpack-cli cross-spawn@7.0.3 OK for: execa@5.1.1 want: ^7.0.3
+170 silly placeDep node_modules/webpack-cli get-stream@6.0.1 OK for: execa@5.1.1 want: ^6.0.0
+171 silly placeDep node_modules/webpack-cli human-signals@2.1.0 OK for: execa@5.1.1 want: ^2.1.0
+172 silly placeDep node_modules/webpack-cli is-stream@2.0.1 OK for: execa@5.1.1 want: ^2.0.0
+173 silly placeDep node_modules/webpack-cli merge-stream@2.0.0 OK for: execa@5.1.1 want: ^2.0.0
+174 silly placeDep node_modules/webpack-cli npm-run-path@4.0.1 OK for: execa@5.1.1 want: ^4.0.1
+175 silly placeDep node_modules/webpack-cli onetime@5.1.2 OK for: execa@5.1.1 want: ^5.1.2
+176 silly placeDep node_modules/webpack-cli signal-exit@3.0.7 OK for: execa@5.1.1 want: ^3.0.3
+177 silly placeDep node_modules/webpack-cli strip-final-newline@2.0.0 OK for: execa@5.1.1 want: ^2.0.0
+178 silly fetch manifest path-key@^3.1.0
+179 silly fetch manifest shebang-command@^2.0.0
+180 silly fetch manifest which@^2.0.1
+181 silly fetch manifest path-key@^3.0.0
+182 silly fetch manifest mimic-fn@^2.1.0
+183 http fetch GET 200 https://registry.npmmirror.com/path-key 34ms (cache hit)
+184 http fetch GET 200 https://registry.npmmirror.com/shebang-command 33ms (cache hit)
+185 http fetch GET 200 https://registry.npmmirror.com/which 34ms (cache hit)
+186 http fetch GET 200 https://registry.npmmirror.com/mimic-fn 33ms (cache hit)
+187 timing idealTree:node_modules/webpack-cli/node_modules/execa Completed in 43ms
+188 silly placeDep node_modules/webpack-cli path-key@3.1.1 OK for: cross-spawn@7.0.3 want: ^3.1.0
+189 silly placeDep node_modules/webpack-cli shebang-command@2.0.0 OK for: cross-spawn@7.0.3 want: ^2.0.0
+190 silly placeDep node_modules/webpack-cli which@2.0.2 OK for: cross-spawn@7.0.3 want: ^2.0.1
+191 silly fetch manifest shebang-regex@^3.0.0
+192 silly fetch manifest isexe@^2.0.0
+193 http fetch GET 200 https://registry.npmmirror.com/isexe 28ms (cache hit)
+194 http fetch GET 200 https://registry.npmmirror.com/shebang-regex 30ms (cache hit)
+195 timing idealTree:node_modules/webpack-cli/node_modules/cross-spawn Completed in 34ms
+196 timing idealTree:node_modules/webpack-cli/node_modules/fastest-levenshtein Completed in 0ms
+197 timing idealTree:node_modules/webpack-cli/node_modules/get-stream Completed in 0ms
+198 timing idealTree:node_modules/webpack-cli/node_modules/human-signals Completed in 0ms
+199 silly placeDep node_modules/webpack-cli pkg-dir@4.2.0 OK for: import-local@3.1.0 want: ^4.2.0
+200 silly placeDep node_modules/webpack-cli resolve-cwd@3.0.0 OK for: import-local@3.1.0 want: ^3.0.0
+201 silly fetch manifest find-up@^4.0.0
+202 silly fetch manifest resolve-from@^5.0.0
+203 http fetch GET 200 https://registry.npmmirror.com/find-up 32ms (cache hit)
+204 http fetch GET 200 https://registry.npmmirror.com/resolve-from 90ms (cache revalidated)
+205 timing idealTree:node_modules/webpack-cli/node_modules/import-local Completed in 93ms
+206 timing idealTree:node_modules/webpack-cli/node_modules/interpret Completed in 0ms
+207 timing idealTree:node_modules/webpack-cli/node_modules/is-stream Completed in 0ms
+208 timing idealTree:node_modules/webpack-cli/node_modules/merge-stream Completed in 0ms
+209 timing idealTree:node_modules/webpack-cli/node_modules/npm-run-path Completed in 0ms
+210 silly placeDep node_modules/webpack-cli mimic-fn@2.1.0 OK for: onetime@5.1.2 want: ^2.1.0
+211 timing idealTree:node_modules/webpack-cli/node_modules/onetime Completed in 1ms
+212 timing idealTree:node_modules/webpack-cli/node_modules/mimic-fn Completed in 0ms
+213 timing idealTree:node_modules/webpack-cli/node_modules/path-key Completed in 0ms
+214 silly placeDep node_modules/webpack-cli find-up@4.1.0 OK for: pkg-dir@4.2.0 want: ^4.0.0
+215 silly fetch manifest locate-path@^5.0.0
+216 silly fetch manifest path-exists@^4.0.0
+217 http fetch GET 200 https://registry.npmmirror.com/locate-path 30ms (cache hit)
+218 http fetch GET 200 https://registry.npmmirror.com/path-exists 31ms (cache hit)
+219 timing idealTree:node_modules/webpack-cli/node_modules/pkg-dir Completed in 32ms
+220 silly placeDep node_modules/webpack-cli locate-path@5.0.0 OK for: find-up@4.1.0 want: ^5.0.0
+221 silly placeDep node_modules/webpack-cli path-exists@4.0.0 OK for: find-up@4.1.0 want: ^4.0.0
+222 silly fetch manifest p-locate@^4.1.0
+223 http fetch GET 200 https://registry.npmmirror.com/p-locate 26ms (cache hit)
+224 timing idealTree:node_modules/webpack-cli/node_modules/find-up Completed in 29ms
+225 silly placeDep node_modules/webpack-cli p-locate@4.1.0 OK for: locate-path@5.0.0 want: ^4.1.0
+226 silly fetch manifest p-limit@^2.2.0
+227 http fetch GET 200 https://registry.npmmirror.com/p-limit 26ms (cache hit)
+228 timing idealTree:node_modules/webpack-cli/node_modules/locate-path Completed in 28ms
+229 silly placeDep node_modules/webpack-cli p-limit@2.3.0 OK for: p-locate@4.1.0 want: ^2.2.0
+230 silly fetch manifest p-try@^2.0.0
+231 http fetch GET 200 https://registry.npmmirror.com/p-try 27ms (cache hit)
+232 timing idealTree:node_modules/webpack-cli/node_modules/p-locate Completed in 29ms
+233 silly placeDep node_modules/webpack-cli p-try@2.2.0 OK for: p-limit@2.3.0 want: ^2.0.0
+234 timing idealTree:node_modules/webpack-cli/node_modules/p-limit Completed in 1ms
+235 timing idealTree:node_modules/webpack-cli/node_modules/p-try Completed in 0ms
+236 timing idealTree:node_modules/webpack-cli/node_modules/path-exists Completed in 0ms
+237 silly placeDep node_modules/webpack-cli resolve@1.22.0 OK for: rechoir@0.7.1 want: ^1.9.0
+238 silly fetch manifest is-core-module@^2.8.1
+239 silly fetch manifest path-parse@^1.0.7
+240 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+241 http fetch GET 200 https://registry.npmmirror.com/is-core-module 31ms (cache hit)
+242 http fetch GET 200 https://registry.npmmirror.com/path-parse 31ms (cache hit)
+243 http fetch GET 200 https://registry.npmmirror.com/supports-preserve-symlinks-flag 30ms (cache hit)
+244 timing idealTree:node_modules/webpack-cli/node_modules/rechoir Completed in 35ms
+245 silly placeDep node_modules/webpack-cli is-core-module@2.9.0 OK for: resolve@1.22.0 want: ^2.8.1
+246 silly placeDep node_modules/webpack-cli path-parse@1.0.7 OK for: resolve@1.22.0 want: ^1.0.7
+247 silly placeDep node_modules/webpack-cli supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.0 want: ^1.0.0
+248 silly fetch manifest has@^1.0.3
+249 http fetch GET 200 https://registry.npmmirror.com/has 25ms (cache hit)
+250 timing idealTree:node_modules/webpack-cli/node_modules/resolve Completed in 28ms
+251 silly placeDep node_modules/webpack-cli has@1.0.3 OK for: is-core-module@2.9.0 want: ^1.0.3
+252 silly fetch manifest function-bind@^1.1.1
+253 http fetch GET 200 https://registry.npmmirror.com/function-bind 30ms (cache hit)
+254 timing idealTree:node_modules/webpack-cli/node_modules/is-core-module Completed in 31ms
+255 silly placeDep node_modules/webpack-cli function-bind@1.1.1 OK for: has@1.0.3 want: ^1.1.1
+256 timing idealTree:node_modules/webpack-cli/node_modules/has Completed in 1ms
+257 timing idealTree:node_modules/webpack-cli/node_modules/function-bind Completed in 0ms
+258 timing idealTree:node_modules/webpack-cli/node_modules/path-parse Completed in 0ms
+259 silly placeDep node_modules/webpack-cli resolve-from@5.0.0 OK for: resolve-cwd@3.0.0 want: ^5.0.0
+260 timing idealTree:node_modules/webpack-cli/node_modules/resolve-cwd Completed in 1ms
+261 timing idealTree:node_modules/webpack-cli/node_modules/resolve-from Completed in 0ms
+262 silly placeDep node_modules/webpack-cli shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+263 timing idealTree:node_modules/webpack-cli/node_modules/shebang-command Completed in 1ms
+264 timing idealTree:node_modules/webpack-cli/node_modules/shebang-regex Completed in 0ms
+265 timing idealTree:node_modules/webpack-cli/node_modules/signal-exit Completed in 0ms
+266 timing idealTree:node_modules/webpack-cli/node_modules/strip-final-newline Completed in 0ms
+267 timing idealTree:node_modules/webpack-cli/node_modules/supports-preserve-symlinks-flag Completed in 0ms
+268 silly fetch manifest webpack@^5.1.0
+269 silly placeDep node_modules/webpack-cli @types/eslint-scope@3.7.3 OK for: webpack@5.72.1 want: ^3.7.3
+270 silly placeDep node_modules/webpack-cli @types/estree@0.0.51 OK for: webpack@5.72.1 want: ^0.0.51
+271 silly placeDep node_modules/webpack-cli @webassemblyjs/ast@1.11.1 OK for: webpack@5.72.1 want: 1.11.1
+272 silly placeDep node_modules/webpack-cli @webassemblyjs/wasm-edit@1.11.1 OK for: webpack@5.72.1 want: 1.11.1
+273 silly placeDep node_modules/webpack-cli @webassemblyjs/wasm-parser@1.11.1 OK for: webpack@5.72.1 want: 1.11.1
+274 silly placeDep node_modules/webpack-cli acorn@8.7.1 OK for: webpack@5.72.1 want: ^8.4.1
+275 silly placeDep node_modules/webpack-cli acorn-import-assertions@1.8.0 OK for: webpack@5.72.1 want: ^1.7.6
+276 silly placeDep node_modules/webpack-cli browserslist@4.20.3 OK for: webpack@5.72.1 want: ^4.14.5
+277 silly placeDep node_modules/webpack-cli chrome-trace-event@1.0.3 OK for: webpack@5.72.1 want: ^1.0.2
+278 silly placeDep node_modules/webpack-cli enhanced-resolve@5.9.3 OK for: webpack@5.72.1 want: ^5.9.3
+279 silly placeDep node_modules/webpack-cli es-module-lexer@0.9.3 OK for: webpack@5.72.1 want: ^0.9.0
+280 silly placeDep node_modules/webpack-cli eslint-scope@5.1.1 OK for: webpack@5.72.1 want: 5.1.1
+281 silly placeDep node_modules/webpack-cli events@3.3.0 OK for: webpack@5.72.1 want: ^3.2.0
+282 silly placeDep node_modules/webpack-cli glob-to-regexp@0.4.1 OK for: webpack@5.72.1 want: ^0.4.1
+283 silly placeDep node_modules/webpack-cli graceful-fs@4.2.10 OK for: webpack@5.72.1 want: ^4.2.9
+284 silly placeDep node_modules/webpack-cli json-parse-even-better-errors@2.3.1 OK for: webpack@5.72.1 want: ^2.3.1
+285 silly placeDep node_modules/webpack-cli loader-runner@4.3.0 OK for: webpack@5.72.1 want: ^4.2.0
+286 silly placeDep node_modules/webpack-cli mime-types@2.1.35 OK for: webpack@5.72.1 want: ^2.1.27
+287 silly placeDep node_modules/webpack-cli neo-async@2.6.2 OK for: webpack@5.72.1 want: ^2.6.2
+288 silly placeDep node_modules/webpack-cli schema-utils@3.1.1 OK for: webpack@5.72.1 want: ^3.1.0
+289 silly placeDep node_modules/webpack-cli tapable@2.2.1 OK for: webpack@5.72.1 want: ^2.1.1
+290 silly placeDep node_modules/webpack-cli terser-webpack-plugin@5.3.1 OK for: webpack@5.72.1 want: ^5.1.3
+291 silly placeDep node_modules/webpack-cli watchpack@2.3.1 OK for: webpack@5.72.1 want: ^2.3.1
+292 silly placeDep node_modules/webpack-cli webpack-sources@3.2.3 OK for: webpack@5.72.1 want: ^3.2.3
+293 silly fetch manifest @types/eslint@*
+294 silly fetch manifest @webassemblyjs/helper-numbers@1.11.1
+295 silly fetch manifest @webassemblyjs/helper-wasm-bytecode@1.11.1
+296 silly fetch manifest @webassemblyjs/helper-buffer@1.11.1
+297 silly fetch manifest @webassemblyjs/helper-wasm-section@1.11.1
+298 silly fetch manifest @webassemblyjs/wasm-gen@1.11.1
+299 silly fetch manifest @webassemblyjs/wasm-opt@1.11.1
+300 silly fetch manifest @webassemblyjs/wast-printer@1.11.1
+301 silly fetch manifest @webassemblyjs/helper-api-error@1.11.1
+302 silly fetch manifest @webassemblyjs/ieee754@1.11.1
+303 silly fetch manifest @webassemblyjs/leb128@1.11.1
+304 silly fetch manifest @webassemblyjs/utf8@1.11.1
+305 silly fetch manifest caniuse-lite@^1.0.30001332
+306 silly fetch manifest electron-to-chromium@^1.4.118
+307 silly fetch manifest escalade@^3.1.1
+308 silly fetch manifest node-releases@^2.0.3
+309 silly fetch manifest picocolors@^1.0.0
+310 silly fetch manifest esrecurse@^4.3.0
+311 silly fetch manifest estraverse@^4.1.1
+312 silly fetch manifest mime-db@1.52.0
+313 silly fetch manifest @types/json-schema@^7.0.8
+314 silly fetch manifest ajv@^6.12.5
+315 silly fetch manifest ajv-keywords@^3.5.2
+316 silly fetch manifest jest-worker@^27.4.5
+317 silly fetch manifest serialize-javascript@^6.0.0
+318 silly fetch manifest source-map@^0.6.1
+319 silly fetch manifest terser@^5.7.2
+320 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-gen 103ms (cache hit)
+321 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-buffer 105ms (cache hit)
+322 http fetch GET 200 https://registry.npmmirror.com/@types%2feslint 107ms (cache hit)
+323 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-numbers 113ms (cache hit)
+324 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-wasm-section 113ms (cache hit)
+325 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-opt 113ms (cache hit)
+326 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-api-error 113ms (cache hit)
+327 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fleb128 113ms (cache hit)
+328 http fetch GET 200 https://registry.npmmirror.com/caniuse-lite 121ms (cache hit)
+329 http fetch GET 200 https://registry.npmmirror.com/picocolors 121ms (cache hit)
+330 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fieee754 131ms (cache hit)
+331 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2futf8 131ms (cache hit)
+332 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwast-printer 133ms (cache hit)
+333 http fetch GET 200 https://registry.npmmirror.com/electron-to-chromium 135ms (cache hit)
+334 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-wasm-bytecode 144ms (cache hit)
+335 http fetch GET 200 https://registry.npmmirror.com/node-releases 140ms (cache hit)
+336 http fetch GET 200 https://registry.npmmirror.com/ajv 138ms (cache hit)
+337 http fetch GET 200 https://registry.npmmirror.com/@types%2fjson-schema 144ms (cache hit)
+338 http fetch GET 200 https://registry.npmmirror.com/esrecurse 147ms (cache hit)
+339 http fetch GET 200 https://registry.npmmirror.com/mime-db 146ms (cache hit)
+340 http fetch GET 200 https://registry.npmmirror.com/estraverse 147ms (cache hit)
+341 http fetch GET 200 https://registry.npmmirror.com/ajv-keywords 146ms (cache hit)
+342 http fetch GET 200 https://registry.npmmirror.com/serialize-javascript 146ms (cache hit)
+343 http fetch GET 200 https://registry.npmmirror.com/escalade 151ms (cache hit)
+344 http fetch GET 200 https://registry.npmmirror.com/jest-worker 147ms (cache hit)
+345 http fetch GET 200 https://registry.npmmirror.com/terser 151ms (cache hit)
+346 http fetch GET 200 https://registry.npmmirror.com/source-map 153ms (cache hit)
+347 timing idealTree:node_modules/webpack-cli/node_modules/webpack Completed in 196ms
+348 silly placeDep node_modules/webpack-cli @types/eslint@8.4.2 OK for: @types/eslint-scope@3.7.3 want: *
+349 silly fetch manifest @types/json-schema@*
+350 timing idealTree:node_modules/webpack-cli/node_modules/@types/eslint-scope Completed in 1ms
+351 silly placeDep node_modules/webpack-cli @types/json-schema@7.0.11 OK for: @types/eslint@8.4.2 want: *
+352 timing idealTree:node_modules/webpack-cli/node_modules/@types/eslint Completed in 1ms
+353 timing idealTree:node_modules/webpack-cli/node_modules/@types/estree Completed in 0ms
+354 timing idealTree:node_modules/webpack-cli/node_modules/@types/json-schema Completed in 0ms
+355 silly placeDep node_modules/webpack-cli @webassemblyjs/helper-numbers@1.11.1 OK for: @webassemblyjs/ast@1.11.1 want: 1.11.1
+356 silly placeDep node_modules/webpack-cli @webassemblyjs/helper-wasm-bytecode@1.11.1 OK for: @webassemblyjs/ast@1.11.1 want: 1.11.1
+357 silly fetch manifest @webassemblyjs/floating-point-hex-parser@1.11.1
+358 silly fetch manifest @xtuc/long@4.2.2
+359 http fetch GET 200 https://registry.npmmirror.com/@xtuc%2flong 34ms (cache hit)
+360 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2ffloating-point-hex-parser 36ms (cache hit)
+361 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/ast Completed in 40ms
+362 silly placeDep node_modules/webpack-cli @webassemblyjs/floating-point-hex-parser@1.11.1 OK for: @webassemblyjs/helper-numbers@1.11.1 want: 1.11.1
+363 silly placeDep node_modules/webpack-cli @webassemblyjs/helper-api-error@1.11.1 OK for: @webassemblyjs/helper-numbers@1.11.1 want: 1.11.1
+364 silly placeDep node_modules/webpack-cli @xtuc/long@4.2.2 OK for: @webassemblyjs/helper-numbers@1.11.1 want: 4.2.2
+365 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-numbers Completed in 3ms
+366 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/floating-point-hex-parser Completed in 0ms
+367 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-api-error Completed in 0ms
+368 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-wasm-bytecode Completed in 0ms
+369 silly placeDep node_modules/webpack-cli @webassemblyjs/helper-buffer@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+370 silly placeDep node_modules/webpack-cli @webassemblyjs/helper-wasm-section@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+371 silly placeDep node_modules/webpack-cli @webassemblyjs/wasm-gen@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+372 silly placeDep node_modules/webpack-cli @webassemblyjs/wasm-opt@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+373 silly placeDep node_modules/webpack-cli @webassemblyjs/wast-printer@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+374 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-edit Completed in 5ms
+375 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-buffer Completed in 0ms
+376 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-wasm-section Completed in 0ms
+377 silly placeDep node_modules/webpack-cli @webassemblyjs/ieee754@1.11.1 OK for: @webassemblyjs/wasm-gen@1.11.1 want: 1.11.1
+378 silly placeDep node_modules/webpack-cli @webassemblyjs/leb128@1.11.1 OK for: @webassemblyjs/wasm-gen@1.11.1 want: 1.11.1
+379 silly placeDep node_modules/webpack-cli @webassemblyjs/utf8@1.11.1 OK for: @webassemblyjs/wasm-gen@1.11.1 want: 1.11.1
+380 silly fetch manifest @xtuc/ieee754@^1.2.0
+381 http fetch GET 200 https://registry.npmmirror.com/@xtuc%2fieee754 24ms (cache hit)
+382 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-gen Completed in 28ms
+383 silly placeDep node_modules/webpack-cli @xtuc/ieee754@1.2.0 OK for: @webassemblyjs/ieee754@1.11.1 want: ^1.2.0
+384 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/ieee754 Completed in 1ms
+385 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/leb128 Completed in 0ms
+386 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/utf8 Completed in 0ms
+387 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-opt Completed in 0ms
+388 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-parser Completed in 0ms
+389 timing idealTree:node_modules/webpack-cli/node_modules/@webassemblyjs/wast-printer Completed in 0ms
+390 timing idealTree:node_modules/webpack-cli/node_modules/@xtuc/ieee754 Completed in 0ms
+391 timing idealTree:node_modules/webpack-cli/node_modules/@xtuc/long Completed in 0ms
+392 timing idealTree:node_modules/webpack-cli/node_modules/acorn Completed in 0ms
+393 timing idealTree:node_modules/webpack-cli/node_modules/acorn-import-assertions Completed in 0ms
+394 silly placeDep node_modules/webpack-cli caniuse-lite@1.0.30001341 OK for: browserslist@4.20.3 want: ^1.0.30001332
+395 silly placeDep node_modules/webpack-cli electron-to-chromium@1.4.137 OK for: browserslist@4.20.3 want: ^1.4.118
+396 silly placeDep node_modules/webpack-cli escalade@3.1.1 OK for: browserslist@4.20.3 want: ^3.1.1
+397 silly placeDep node_modules/webpack-cli node-releases@2.0.4 OK for: browserslist@4.20.3 want: ^2.0.3
+398 silly placeDep node_modules/webpack-cli picocolors@1.0.0 OK for: browserslist@4.20.3 want: ^1.0.0
+399 timing idealTree:node_modules/webpack-cli/node_modules/browserslist Completed in 4ms
+400 timing idealTree:node_modules/webpack-cli/node_modules/caniuse-lite Completed in 0ms
+401 timing idealTree:node_modules/webpack-cli/node_modules/chrome-trace-event Completed in 0ms
+402 timing idealTree:node_modules/webpack-cli/node_modules/electron-to-chromium Completed in 0ms
+403 timing idealTree:node_modules/webpack-cli/node_modules/enhanced-resolve Completed in 0ms
+404 timing idealTree:node_modules/webpack-cli/node_modules/es-module-lexer Completed in 0ms
+405 timing idealTree:node_modules/webpack-cli/node_modules/escalade Completed in 0ms
+406 silly placeDep node_modules/webpack-cli esrecurse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.3.0
+407 silly placeDep node_modules/webpack-cli estraverse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.1.1
+408 silly fetch manifest estraverse@^5.2.0
+409 timing idealTree:node_modules/webpack-cli/node_modules/eslint-scope Completed in 2ms
+410 silly placeDep node_modules/webpack-cli/node_modules/esrecurse estraverse@5.3.0 OK for: esrecurse@4.3.0 want: ^5.2.0
+411 timing idealTree:node_modules/webpack-cli/node_modules/esrecurse Completed in 1ms
+412 timing idealTree:node_modules/webpack-cli/node_modules/estraverse Completed in 0ms
+413 timing idealTree:node_modules/webpack-cli/node_modules/events Completed in 0ms
+414 timing idealTree:node_modules/webpack-cli/node_modules/glob-to-regexp Completed in 0ms
+415 timing idealTree:node_modules/webpack-cli/node_modules/graceful-fs Completed in 0ms
+416 timing idealTree:node_modules/webpack-cli/node_modules/json-parse-even-better-errors Completed in 0ms
+417 timing idealTree:node_modules/webpack-cli/node_modules/loader-runner Completed in 0ms
+418 silly placeDep node_modules/webpack-cli mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+419 timing idealTree:node_modules/webpack-cli/node_modules/mime-types Completed in 1ms
+420 timing idealTree:node_modules/webpack-cli/node_modules/mime-db Completed in 0ms
+421 timing idealTree:node_modules/webpack-cli/node_modules/neo-async Completed in 0ms
+422 timing idealTree:node_modules/webpack-cli/node_modules/node-releases Completed in 0ms
+423 timing idealTree:node_modules/webpack-cli/node_modules/picocolors Completed in 0ms
+424 silly placeDep node_modules/webpack-cli ajv@6.12.6 OK for: schema-utils@3.1.1 want: ^6.12.5
+425 silly placeDep node_modules/webpack-cli ajv-keywords@3.5.2 OK for: schema-utils@3.1.1 want: ^3.5.2
+426 silly fetch manifest fast-deep-equal@^3.1.1
+427 silly fetch manifest fast-json-stable-stringify@^2.0.0
+428 silly fetch manifest json-schema-traverse@^0.4.1
+429 silly fetch manifest uri-js@^4.2.2
+430 http fetch GET 200 https://registry.npmmirror.com/uri-js 35ms (cache hit)
+431 http fetch GET 200 https://registry.npmmirror.com/fast-deep-equal 36ms (cache hit)
+432 http fetch GET 200 https://registry.npmmirror.com/json-schema-traverse 36ms (cache hit)
+433 http fetch GET 200 https://registry.npmmirror.com/fast-json-stable-stringify 37ms (cache hit)
+434 timing idealTree:node_modules/webpack-cli/node_modules/schema-utils Completed in 40ms
+435 silly placeDep node_modules/webpack-cli fast-deep-equal@3.1.3 OK for: ajv@6.12.6 want: ^3.1.1
+436 silly placeDep node_modules/webpack-cli fast-json-stable-stringify@2.1.0 OK for: ajv@6.12.6 want: ^2.0.0
+437 silly placeDep node_modules/webpack-cli json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+438 silly placeDep node_modules/webpack-cli uri-js@4.4.1 OK for: ajv@6.12.6 want: ^4.2.2
+439 silly fetch manifest punycode@^2.1.0
+440 http fetch GET 200 https://registry.npmmirror.com/punycode 28ms (cache hit)
+441 timing idealTree:node_modules/webpack-cli/node_modules/ajv Completed in 32ms
+442 timing idealTree:node_modules/webpack-cli/node_modules/ajv-keywords Completed in 0ms
+443 timing idealTree:node_modules/webpack-cli/node_modules/fast-deep-equal Completed in 0ms
+444 timing idealTree:node_modules/webpack-cli/node_modules/fast-json-stable-stringify Completed in 0ms
+445 timing idealTree:node_modules/webpack-cli/node_modules/json-schema-traverse Completed in 0ms
+446 timing idealTree:node_modules/webpack-cli/node_modules/tapable Completed in 0ms
+447 silly placeDep node_modules/webpack-cli jest-worker@27.5.1 OK for: terser-webpack-plugin@5.3.1 want: ^27.4.5
+448 silly placeDep node_modules/webpack-cli serialize-javascript@6.0.0 OK for: terser-webpack-plugin@5.3.1 want: ^6.0.0
+449 silly placeDep node_modules/webpack-cli source-map@0.6.1 OK for: terser-webpack-plugin@5.3.1 want: ^0.6.1
+450 silly placeDep node_modules/webpack-cli terser@5.13.1 OK for: terser-webpack-plugin@5.3.1 want: ^5.7.2
+451 silly fetch manifest @types/node@*
+452 silly fetch manifest supports-color@^8.0.0
+453 silly fetch manifest randombytes@^2.1.0
+454 silly fetch manifest commander@^2.20.0
+455 silly fetch manifest source-map@~0.8.0-beta.0
+456 silly fetch manifest source-map-support@~0.5.20
+457 http fetch GET 200 https://registry.npmmirror.com/randombytes 33ms (cache hit)
+458 http fetch GET 200 https://registry.npmmirror.com/supports-color 36ms (cache hit)
+459 http fetch GET 200 https://registry.npmmirror.com/source-map-support 37ms (cache hit)
+460 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode 40ms (cache hit)
+461 timing idealTree:node_modules/webpack-cli/node_modules/terser-webpack-plugin Completed in 50ms
+462 silly placeDep node_modules/webpack-cli @types/node@17.0.35 OK for: jest-worker@27.5.1 want: *
+463 silly placeDep node_modules/webpack-cli supports-color@8.1.1 OK for: jest-worker@27.5.1 want: ^8.0.0
+464 silly fetch manifest has-flag@^4.0.0
+465 http fetch GET 200 https://registry.npmmirror.com/has-flag 26ms (cache hit)
+466 timing idealTree:node_modules/webpack-cli/node_modules/jest-worker Completed in 28ms
+467 timing idealTree:node_modules/webpack-cli/node_modules/@types/node Completed in 0ms
+468 silly placeDep node_modules/webpack-cli randombytes@2.1.0 OK for: serialize-javascript@6.0.0 want: ^2.1.0
+469 silly fetch manifest safe-buffer@^5.1.0
+470 http fetch GET 200 https://registry.npmmirror.com/safe-buffer 25ms (cache hit)
+471 timing idealTree:node_modules/webpack-cli/node_modules/serialize-javascript Completed in 27ms
+472 silly placeDep node_modules/webpack-cli safe-buffer@5.2.1 OK for: randombytes@2.1.0 want: ^5.1.0
+473 timing idealTree:node_modules/webpack-cli/node_modules/randombytes Completed in 1ms
+474 timing idealTree:node_modules/webpack-cli/node_modules/safe-buffer Completed in 0ms
+475 timing idealTree:node_modules/webpack-cli/node_modules/source-map Completed in 0ms
+476 silly placeDep node_modules/webpack-cli has-flag@4.0.0 OK for: supports-color@8.1.1 want: ^4.0.0
+477 timing idealTree:node_modules/webpack-cli/node_modules/supports-color Completed in 1ms
+478 timing idealTree:node_modules/webpack-cli/node_modules/has-flag Completed in 0ms
+479 silly placeDep node_modules/webpack-cli/node_modules/terser commander@2.20.3 OK for: terser@5.13.1 want: ^2.20.0
+480 silly placeDep node_modules/webpack-cli/node_modules/terser source-map@0.8.0-beta.0 OK for: terser@5.13.1 want: ~0.8.0-beta.0
+481 silly placeDep node_modules/webpack-cli source-map-support@0.5.21 OK for: terser@5.13.1 want: ~0.5.20
+482 silly fetch manifest whatwg-url@^7.0.0
+483 silly fetch manifest buffer-from@^1.0.0
+484 http fetch GET 200 https://registry.npmmirror.com/whatwg-url 27ms (cache hit)
+485 http fetch GET 200 https://registry.npmmirror.com/buffer-from 27ms (cache hit)
+486 timing idealTree:node_modules/webpack-cli/node_modules/terser Completed in 32ms
+487 silly placeDep node_modules/webpack-cli buffer-from@1.1.2 OK for: source-map-support@0.5.21 want: ^1.0.0
+488 timing idealTree:node_modules/webpack-cli/node_modules/source-map-support Completed in 0ms
+489 timing idealTree:node_modules/webpack-cli/node_modules/buffer-from Completed in 0ms
+490 silly placeDep node_modules/webpack-cli punycode@2.1.1 OK for: uri-js@4.4.1 want: ^2.1.0
+491 timing idealTree:node_modules/webpack-cli/node_modules/uri-js Completed in 0ms
+492 timing idealTree:node_modules/webpack-cli/node_modules/punycode Completed in 0ms
+493 timing idealTree:node_modules/webpack-cli/node_modules/watchpack Completed in 0ms
+494 silly placeDep node_modules/webpack-cli clone-deep@4.0.1 OK for: webpack-merge@5.8.0 want: ^4.0.1
+495 silly placeDep node_modules/webpack-cli wildcard@2.0.0 OK for: webpack-merge@5.8.0 want: ^2.0.0
+496 silly fetch manifest is-plain-object@^2.0.4
+497 silly fetch manifest kind-of@^6.0.2
+498 silly fetch manifest shallow-clone@^3.0.0
+499 http fetch GET 200 https://registry.npmmirror.com/kind-of 30ms (cache hit)
+500 http fetch GET 200 https://registry.npmmirror.com/is-plain-object 32ms (cache hit)
+501 http fetch GET 200 https://registry.npmmirror.com/shallow-clone 136ms (cache hit)
+502 timing idealTree:node_modules/webpack-cli/node_modules/webpack-merge Completed in 139ms
+503 silly placeDep node_modules/webpack-cli is-plain-object@2.0.4 OK for: clone-deep@4.0.1 want: ^2.0.4
+504 silly placeDep node_modules/webpack-cli kind-of@6.0.3 OK for: clone-deep@4.0.1 want: ^6.0.2
+505 silly placeDep node_modules/webpack-cli shallow-clone@3.0.1 OK for: clone-deep@4.0.1 want: ^3.0.0
+506 silly fetch manifest isobject@^3.0.1
+507 http fetch GET 200 https://registry.npmmirror.com/isobject 27ms (cache hit)
+508 timing idealTree:node_modules/webpack-cli/node_modules/clone-deep Completed in 30ms
+509 silly placeDep node_modules/webpack-cli isobject@3.0.1 OK for: is-plain-object@2.0.4 want: ^3.0.1
+510 timing idealTree:node_modules/webpack-cli/node_modules/is-plain-object Completed in 1ms
+511 timing idealTree:node_modules/webpack-cli/node_modules/isobject Completed in 0ms
+512 timing idealTree:node_modules/webpack-cli/node_modules/kind-of Completed in 0ms
+513 timing idealTree:node_modules/webpack-cli/node_modules/shallow-clone Completed in 0ms
+514 timing idealTree:node_modules/webpack-cli/node_modules/webpack-sources Completed in 0ms
+515 silly placeDep node_modules/webpack-cli isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+516 timing idealTree:node_modules/webpack-cli/node_modules/which Completed in 2ms
+517 timing idealTree:node_modules/webpack-cli/node_modules/isexe Completed in 0ms
+518 timing idealTree:node_modules/webpack-cli/node_modules/wildcard Completed in 0ms
+519 timing idealTree:node_modules/webpack-cli/node_modules/esrecurse/node_modules/estraverse Completed in 0ms
+520 timing idealTree:node_modules/webpack-cli/node_modules/terser/node_modules/commander Completed in 0ms
+521 silly placeDep node_modules/webpack-cli whatwg-url@7.1.0 OK for: source-map@0.8.0-beta.0 want: ^7.0.0
+522 silly fetch manifest lodash.sortby@^4.7.0
+523 silly fetch manifest tr46@^1.0.1
+524 silly fetch manifest webidl-conversions@^4.0.2
+525 http fetch GET 200 https://registry.npmmirror.com/lodash.sortby 31ms (cache hit)
+526 http fetch GET 200 https://registry.npmmirror.com/tr46 32ms (cache hit)
+527 http fetch GET 200 https://registry.npmmirror.com/webidl-conversions 32ms (cache hit)
+528 timing idealTree:node_modules/webpack-cli/node_modules/terser/node_modules/source-map Completed in 34ms
+529 silly placeDep node_modules/webpack-cli lodash.sortby@4.7.0 OK for: whatwg-url@7.1.0 want: ^4.7.0
+530 silly placeDep node_modules/webpack-cli tr46@1.0.1 OK for: whatwg-url@7.1.0 want: ^1.0.1
+531 silly placeDep node_modules/webpack-cli webidl-conversions@4.0.2 OK for: whatwg-url@7.1.0 want: ^4.0.2
+532 timing idealTree:node_modules/webpack-cli/node_modules/whatwg-url Completed in 2ms
+533 timing idealTree:node_modules/webpack-cli/node_modules/lodash.sortby Completed in 0ms
+534 timing idealTree:node_modules/webpack-cli/node_modules/tr46 Completed in 0ms
+535 timing idealTree:node_modules/webpack-cli/node_modules/webidl-conversions Completed in 0ms
+536 timing idealTree:buildDeps Completed in 1682ms
+537 timing idealTree:fixDepFlags Completed in 1ms
+538 timing idealTree Completed in 1693ms
+539 timing reify:loadTrees Completed in 1696ms
+540 timing reify:diffTrees Completed in 3ms
+541 silly reify moves {}
+542 timing reify:retireShallow Completed in 0ms
+543 timing reify:createSparse Completed in 81ms
+544 timing reify:loadBundles Completed in 0ms
+545 silly audit bulk request {
+545 silly audit   'webpack-cli': [ '4.9.2' ],
+545 silly audit   '@discoveryjs/json-ext': [ '0.5.7' ],
+545 silly audit   '@webpack-cli/configtest': [ '1.1.1' ],
+545 silly audit   webpack: [ '5.72.1' ],
+545 silly audit   '@webpack-cli/info': [ '1.4.1' ],
+545 silly audit   '@webpack-cli/serve': [ '1.6.1' ],
+545 silly audit   colorette: [ '2.0.16' ],
+545 silly audit   commander: [ '7.2.0', '2.20.3' ],
+545 silly audit   execa: [ '5.1.1' ],
+545 silly audit   'fastest-levenshtein': [ '1.0.12' ],
+545 silly audit   'import-local': [ '3.1.0' ],
+545 silly audit   interpret: [ '2.2.0' ],
+545 silly audit   rechoir: [ '0.7.1' ],
+545 silly audit   'webpack-merge': [ '5.8.0' ],
+545 silly audit   envinfo: [ '7.8.1' ],
+545 silly audit   'cross-spawn': [ '7.0.3' ],
+545 silly audit   'get-stream': [ '6.0.1' ],
+545 silly audit   'human-signals': [ '2.1.0' ],
+545 silly audit   'is-stream': [ '2.0.1' ],
+545 silly audit   'merge-stream': [ '2.0.0' ],
+545 silly audit   'npm-run-path': [ '4.0.1' ],
+545 silly audit   onetime: [ '5.1.2' ],
+545 silly audit   'signal-exit': [ '3.0.7' ],
+545 silly audit   'strip-final-newline': [ '2.0.0' ],
+545 silly audit   'path-key': [ '3.1.1' ],
+545 silly audit   'shebang-command': [ '2.0.0' ],
+545 silly audit   which: [ '2.0.2' ],
+545 silly audit   'pkg-dir': [ '4.2.0' ],
+545 silly audit   'resolve-cwd': [ '3.0.0' ],
+545 silly audit   'mimic-fn': [ '2.1.0' ],
+545 silly audit   'find-up': [ '4.1.0' ],
+545 silly audit   'locate-path': [ '5.0.0' ],
+545 silly audit   'path-exists': [ '4.0.0' ],
+545 silly audit   'p-locate': [ '4.1.0' ],
+545 silly audit   'p-limit': [ '2.3.0' ],
+545 silly audit   'p-try': [ '2.2.0' ],
+545 silly audit   resolve: [ '1.22.0' ],
+545 silly audit   'is-core-module': [ '2.9.0' ],
+545 silly audit   'path-parse': [ '1.0.7' ],
+545 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+545 silly audit   has: [ '1.0.3' ],
+545 silly audit   'function-bind': [ '1.1.1' ],
+545 silly audit   'resolve-from': [ '5.0.0' ],
+545 silly audit   'shebang-regex': [ '3.0.0' ],
+545 silly audit   '@types/eslint-scope': [ '3.7.3' ],
+545 silly audit   '@types/estree': [ '0.0.51' ],
+545 silly audit   '@webassemblyjs/ast': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/wasm-edit': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/wasm-parser': [ '1.11.1' ],
+545 silly audit   acorn: [ '8.7.1' ],
+545 silly audit   'acorn-import-assertions': [ '1.8.0' ],
+545 silly audit   browserslist: [ '4.20.3' ],
+545 silly audit   'chrome-trace-event': [ '1.0.3' ],
+545 silly audit   'enhanced-resolve': [ '5.9.3' ],
+545 silly audit   'es-module-lexer': [ '0.9.3' ],
+545 silly audit   'eslint-scope': [ '5.1.1' ],
+545 silly audit   events: [ '3.3.0' ],
+545 silly audit   'glob-to-regexp': [ '0.4.1' ],
+545 silly audit   'graceful-fs': [ '4.2.10' ],
+545 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+545 silly audit   'loader-runner': [ '4.3.0' ],
+545 silly audit   'mime-types': [ '2.1.35' ],
+545 silly audit   'neo-async': [ '2.6.2' ],
+545 silly audit   'schema-utils': [ '3.1.1' ],
+545 silly audit   tapable: [ '2.2.1' ],
+545 silly audit   'terser-webpack-plugin': [ '5.3.1' ],
+545 silly audit   watchpack: [ '2.3.1' ],
+545 silly audit   'webpack-sources': [ '3.2.3' ],
+545 silly audit   '@types/eslint': [ '8.4.2' ],
+545 silly audit   '@types/json-schema': [ '7.0.11' ],
+545 silly audit   '@webassemblyjs/helper-numbers': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/helper-api-error': [ '1.11.1' ],
+545 silly audit   '@xtuc/long': [ '4.2.2' ],
+545 silly audit   '@webassemblyjs/helper-buffer': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/wasm-gen': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/wasm-opt': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/wast-printer': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/ieee754': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/leb128': [ '1.11.1' ],
+545 silly audit   '@webassemblyjs/utf8': [ '1.11.1' ],
+545 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+545 silly audit   'caniuse-lite': [ '1.0.30001341' ],
+545 silly audit   'electron-to-chromium': [ '1.4.137' ],
+545 silly audit   escalade: [ '3.1.1' ],
+545 silly audit   'node-releases': [ '2.0.4' ],
+545 silly audit   picocolors: [ '1.0.0' ],
+545 silly audit   esrecurse: [ '4.3.0' ],
+545 silly audit   estraverse: [ '4.3.0', '5.3.0' ],
+545 silly audit   'mime-db': [ '1.52.0' ],
+545 silly audit   ajv: [ '6.12.6' ],
+545 silly audit   'ajv-keywords': [ '3.5.2' ],
+545 silly audit   'fast-deep-equal': [ '3.1.3' ],
+545 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+545 silly audit   'json-schema-traverse': [ '0.4.1' ],
+545 silly audit   'uri-js': [ '4.4.1' ],
+545 silly audit   'jest-worker': [ '27.5.1' ],
+545 silly audit   'serialize-javascript': [ '6.0.0' ],
+545 silly audit   'source-map': [ '0.6.1', '0.8.0-beta.0' ],
+545 silly audit   terser: [ '5.13.1' ],
+545 silly audit   '@types/node': [ '17.0.35' ],
+545 silly audit   'supports-color': [ '8.1.1' ],
+545 silly audit   randombytes: [ '2.1.0' ],
+545 silly audit   'safe-buffer': [ '5.2.1' ],
+545 silly audit   'has-flag': [ '4.0.0' ],
+545 silly audit   'source-map-support': [ '0.5.21' ],
+545 silly audit   'buffer-from': [ '1.1.2' ],
+545 silly audit   punycode: [ '2.1.1' ],
+545 silly audit   'clone-deep': [ '4.0.1' ],
+545 silly audit   wildcard: [ '2.0.0' ],
+545 silly audit   'is-plain-object': [ '2.0.4' ],
+545 silly audit   'kind-of': [ '6.0.3' ],
+545 silly audit   'shallow-clone': [ '3.0.1' ],
+545 silly audit   isobject: [ '3.0.1' ],
+545 silly audit   isexe: [ '2.0.0' ],
+545 silly audit   'whatwg-url': [ '7.1.0' ],
+545 silly audit   'lodash.sortby': [ '4.7.0' ],
+545 silly audit   tr46: [ '1.0.1' ],
+545 silly audit   'webidl-conversions': [ '4.0.2' ]
+545 silly audit }
+546 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 48ms (cache skip)
+547 silly audit bulk request failed <h1>404 Not Found</h1>
+548 silly tarball no local data for webpack-cli@https://registry.npmmirror.com/webpack-cli/-/webpack-cli-4.9.2.tgz. Extracting by manifest.
+549 silly tarball no local data for wildcard@https://registry.npmmirror.com/wildcard/-/wildcard-2.0.0.tgz. Extracting by manifest.
+550 silly tarball no local data for resolve-from@https://registry.npmmirror.com/resolve-from/-/resolve-from-5.0.0.tgz. Extracting by manifest.
+551 silly tarball no local data for p-locate@https://registry.npmmirror.com/p-locate/-/p-locate-4.1.0.tgz. Extracting by manifest.
+552 silly tarball no local data for locate-path@https://registry.npmmirror.com/locate-path/-/locate-path-5.0.0.tgz. Extracting by manifest.
+553 silly tarball no local data for find-up@https://registry.npmmirror.com/find-up/-/find-up-4.1.0.tgz. Extracting by manifest.
+554 silly tarball no local data for resolve-cwd@https://registry.npmmirror.com/resolve-cwd/-/resolve-cwd-3.0.0.tgz. Extracting by manifest.
+555 silly tarball no local data for pkg-dir@https://registry.npmmirror.com/pkg-dir/-/pkg-dir-4.2.0.tgz. Extracting by manifest.
+556 silly tarball no local data for webpack-merge@https://registry.npmmirror.com/webpack-merge/-/webpack-merge-5.8.0.tgz. Extracting by manifest.
+557 silly tarball no local data for interpret@https://registry.npmmirror.com/interpret/-/interpret-2.2.0.tgz. Extracting by manifest.
+558 silly tarball no local data for import-local@https://registry.npmmirror.com/import-local/-/import-local-3.1.0.tgz. Extracting by manifest.
+559 silly tarball no local data for rechoir@https://registry.npmmirror.com/rechoir/-/rechoir-0.7.1.tgz. Extracting by manifest.
+560 silly tarball no local data for fastest-levenshtein@https://registry.npmmirror.com/fastest-levenshtein/-/fastest-levenshtein-1.0.12.tgz. Extracting by manifest.
+561 silly tarball no local data for colorette@https://registry.npmmirror.com/colorette/-/colorette-2.0.16.tgz. Extracting by manifest.
+562 silly tarball no local data for @webpack-cli/serve@https://registry.npmmirror.com/@webpack-cli/serve/-/serve-1.6.1.tgz. Extracting by manifest.
+563 silly tarball no local data for @discoveryjs/json-ext@https://registry.npmmirror.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz. Extracting by manifest.
+564 silly tarball no local data for @webpack-cli/configtest@https://registry.npmmirror.com/@webpack-cli/configtest/-/configtest-1.1.1.tgz. Extracting by manifest.
+565 silly tarball no local data for @webpack-cli/info@https://registry.npmmirror.com/@webpack-cli/info/-/info-1.4.1.tgz. Extracting by manifest.
+566 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 324ms (cache skip)
+567 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick
+567 verbose audit error     at C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:93:15
+567 verbose audit error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+567 verbose audit error     at async Map.[getReport] (C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:333:21)
+567 verbose audit error     at async Map.run (C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+567 verbose audit error   headers: [Object: null prototype] {
+567 verbose audit error     server: [ 'Tengine' ],
+567 verbose audit error     'content-type': [ 'text/html; charset=utf-8' ],
+567 verbose audit error     'content-length': [ '41' ],
+567 verbose audit error     connection: [ 'keep-alive' ],
+567 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+567 verbose audit error     date: [ 'Fri, 20 May 2022 09:33:45 GMT' ],
+567 verbose audit error     vary: [ 'Origin' ],
+567 verbose audit error     'x-frame-options': [ 'SAMEORIGIN' ],
+567 verbose audit error     'x-xss-protection': [ '1; mode=block' ],
+567 verbose audit error     'x-content-type-options': [ 'nosniff' ],
+567 verbose audit error     'x-download-options': [ 'noopen' ],
+567 verbose audit error     'x-readtime': [ '1.799' ],
+567 verbose audit error     'content-encoding': [ 'gzip' ],
+567 verbose audit error     'ali-swift-global-savetime': [ '1653039225' ],
+567 verbose audit error     via: [
+567 verbose audit error       'cache10.l2cn1813[39,38,404-1280,M], cache49.l2cn1813[40,0], kunlun3.cn1361[56,55,404-1280,M], kunlun10.cn1361[58,0]'
+567 verbose audit error     ],
+567 verbose audit error     'x-cache': [ 'MISS TCP_MISS dirn:-2:-2' ],
+567 verbose audit error     'x-swift-savetime': [ 'Fri, 20 May 2022 09:33:45 GMT' ],
+567 verbose audit error     'x-swift-cachetime': [ '1' ],
+567 verbose audit error     'x-swift-error': [ 'orig response 4XX error' ],
+567 verbose audit error     'timing-allow-origin': [ '*' ],
+567 verbose audit error     eagleid: [ 'b706e79e16530392252042811e' ],
+567 verbose audit error     'x-fetch-attempts': [ '1' ],
+567 verbose audit error     'x-local-cache-status': [ 'skip' ]
+567 verbose audit error   },
+567 verbose audit error   statusCode: 404,
+567 verbose audit error   code: 'E404',
+567 verbose audit error   method: 'POST',
+567 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+567 verbose audit error   body: <Buffer 3c 68 31 3e 34 30 34 20 4e 6f 74 20 46 6f 75 6e 64 3c 2f 68 31 3e>,
+567 verbose audit error   pkgid: undefined
+567 verbose audit error }
+568 silly audit error <h1>404 Not Found</h1>
+569 timing auditReport:getReport Completed in 392ms
+570 silly audit report null
+571 timing reify:audit Completed in 393ms
+572 timing reifyNode:node_modules/webpack-cli/node_modules/buffer-from Completed in 481ms
+573 timing reifyNode:node_modules/webpack-cli/node_modules/shallow-clone Completed in 482ms
+574 timing reifyNode:node_modules/webpack-cli/node_modules/clone-deep Completed in 482ms
+575 timing reifyNode:node_modules/webpack-cli/node_modules/@types/eslint-scope Completed in 485ms
+576 timing reifyNode:node_modules/webpack-cli/node_modules/shebang-command Completed in 487ms
+577 timing reifyNode:node_modules/webpack-cli/node_modules/path-parse Completed in 488ms
+578 timing reifyNode:node_modules/webpack-cli/node_modules/strip-final-newline Completed in 488ms
+579 timing reifyNode:node_modules/webpack-cli/node_modules/merge-stream Completed in 488ms
+580 timing reifyNode:node_modules/webpack-cli/node_modules/serialize-javascript Completed in 493ms
+581 timing reifyNode:node_modules/webpack-cli/node_modules/webidl-conversions Completed in 501ms
+582 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-api-error Completed in 502ms
+583 timing reifyNode:node_modules/webpack-cli/node_modules/@types/json-schema Completed in 503ms
+584 timing reifyNode:node_modules/webpack-cli/node_modules/has-flag Completed in 522ms
+585 timing reifyNode:node_modules/webpack-cli/node_modules/lodash.sortby Completed in 527ms
+586 timing reifyNode:node_modules/webpack-cli/node_modules/isobject Completed in 526ms
+587 timing reifyNode:node_modules/webpack-cli/node_modules/supports-color Completed in 527ms
+588 timing reifyNode:node_modules/webpack-cli/node_modules/is-plain-object Completed in 531ms
+589 timing reifyNode:node_modules/webpack-cli/node_modules/json-parse-even-better-errors Completed in 529ms
+590 timing reifyNode:node_modules/webpack-cli/node_modules/shebang-regex Completed in 528ms
+591 timing reifyNode:node_modules/webpack-cli/node_modules/mimic-fn Completed in 532ms
+592 timing reifyNode:node_modules/webpack-cli/node_modules/p-try Completed in 532ms
+593 timing reifyNode:node_modules/webpack-cli/node_modules/path-exists Completed in 532ms
+594 timing reifyNode:node_modules/webpack-cli/node_modules/path-key Completed in 531ms
+595 timing reifyNode:node_modules/webpack-cli/node_modules/p-limit Completed in 532ms
+596 timing reifyNode:node_modules/webpack-cli/node_modules/signal-exit Completed in 531ms
+597 http fetch GET 200 https://cdn.npmmirror.com/packages/locate-path/5.0.0/locate-path-5.0.0.tgz 444ms (cache miss)
+598 timing reifyNode:node_modules/webpack-cli/node_modules/kind-of Completed in 539ms
+599 timing reifyNode:node_modules/webpack-cli/node_modules/is-stream Completed in 535ms
+600 timing reifyNode:node_modules/webpack-cli/node_modules/npm-run-path Completed in 535ms
+601 timing reifyNode:node_modules/webpack-cli/node_modules/onetime Completed in 535ms
+602 timing reifyNode:node_modules/webpack-cli/node_modules/esrecurse Completed in 540ms
+603 timing reifyNode:node_modules/webpack-cli/node_modules/glob-to-regexp Completed in 540ms
+604 timing reifyNode:node_modules/webpack-cli/node_modules/@types/estree Completed in 539ms
+605 http fetch GET 200 https://cdn.npmmirror.com/packages/resolve-cwd/3.0.0/resolve-cwd-3.0.0.tgz 446ms (cache miss)
+606 timing reifyNode:node_modules/webpack-cli/node_modules/punycode Completed in 547ms
+607 timing reifyNode:node_modules/webpack-cli/node_modules/safe-buffer Completed in 547ms
+608 timing reifyNode:node_modules/webpack-cli/node_modules/mime-types Completed in 545ms
+609 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/floating-point-hex-parser Completed in 546ms
+610 timing reifyNode:node_modules/webpack-cli/node_modules/has Completed in 546ms
+611 http fetch GET 200 https://cdn.npmmirror.com/packages/p-locate/4.1.0/p-locate-4.1.0.tgz 461ms (cache miss)
+612 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/ieee754 Completed in 552ms
+613 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-numbers Completed in 552ms
+614 timing reifyNode:node_modules/webpack-cli/node_modules/acorn-import-assertions Completed in 553ms
+615 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/wast-printer Completed in 558ms
+616 timing reifyNode:node_modules/webpack-cli/node_modules/@xtuc/ieee754 Completed in 559ms
+617 http fetch GET 200 https://cdn.npmmirror.com/packages/wildcard/2.0.0/wildcard-2.0.0.tgz 487ms (cache miss)
+618 timing reifyNode:node_modules/webpack-cli/node_modules/locate-path Completed in 562ms
+619 timing reifyNode:node_modules/webpack-cli/node_modules/loader-runner Completed in 570ms
+620 timing reifyNode:node_modules/webpack-cli/node_modules/resolve-cwd Completed in 570ms
+621 timing reifyNode:node_modules/webpack-cli/node_modules/which Completed in 570ms
+622 timing reifyNode:node_modules/webpack-cli/node_modules/get-stream Completed in 570ms
+623 timing reifyNode:node_modules/webpack-cli/node_modules/esrecurse/node_modules/estraverse Completed in 575ms
+624 timing reifyNode:node_modules/webpack-cli/node_modules/estraverse Completed in 575ms
+625 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-opt Completed in 576ms
+626 timing reifyNode:node_modules/webpack-cli/node_modules/node-releases Completed in 577ms
+627 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-buffer Completed in 577ms
+628 http fetch GET 200 https://cdn.npmmirror.com/packages/%40webpack-cli/info/1.4.1/info-1.4.1.tgz 447ms (cache miss)
+629 http fetch GET 200 https://cdn.npmmirror.com/packages/%40webpack-cli/configtest/1.1.1/configtest-1.1.1.tgz 454ms (cache miss)
+630 timing reifyNode:node_modules/webpack-cli/node_modules/p-locate Completed in 588ms
+631 timing reifyNode:node_modules/webpack-cli/node_modules/@webpack-cli/info Completed in 588ms
+632 timing reifyNode:node_modules/webpack-cli/node_modules/picocolors Completed in 592ms
+633 timing reifyNode:node_modules/webpack-cli/node_modules/@webpack-cli/configtest Completed in 589ms
+634 timing reifyNode:node_modules/webpack-cli/node_modules/terser/node_modules/commander Completed in 595ms
+635 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-wasm-bytecode Completed in 593ms
+636 http fetch GET 200 https://cdn.npmmirror.com/packages/resolve-from/5.0.0/resolve-from-5.0.0.tgz 513ms (cache miss)
+637 http fetch GET 200 https://cdn.npmmirror.com/packages/pkg-dir/4.2.0/pkg-dir-4.2.0.tgz 501ms (cache miss)
+638 timing reifyNode:node_modules/webpack-cli/node_modules/graceful-fs Completed in 605ms
+639 timing reifyNode:node_modules/webpack-cli/node_modules/chrome-trace-event Completed in 610ms
+640 timing reifyNode:node_modules/webpack-cli/node_modules/envinfo Completed in 612ms
+641 http fetch GET 200 https://cdn.npmmirror.com/packages/%40webpack-cli/serve/1.6.1/serve-1.6.1.tgz 492ms (cache miss)
+642 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-edit Completed in 618ms
+643 timing reifyNode:node_modules/webpack-cli/node_modules/randombytes Completed in 622ms
+644 http fetch GET 200 https://cdn.npmmirror.com/packages/rechoir/0.7.1/rechoir-0.7.1.tgz 505ms (cache miss)
+645 timing reifyNode:node_modules/webpack-cli/node_modules/resolve-from Completed in 625ms
+646 timing reifyNode:node_modules/webpack-cli/node_modules/pkg-dir Completed in 625ms
+647 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-gen Completed in 628ms
+648 timing reifyNode:node_modules/webpack-cli/node_modules/source-map-support Completed in 630ms
+649 timing reifyNode:node_modules/webpack-cli/node_modules/isexe Completed in 631ms
+650 timing reifyNode:node_modules/webpack-cli/node_modules/mime-db Completed in 643ms
+651 timing reifyNode:node_modules/webpack-cli/node_modules/escalade Completed in 649ms
+652 timing reifyNode:node_modules/webpack-cli/node_modules/json-schema-traverse Completed in 654ms
+653 timing reifyNode:node_modules/webpack-cli/node_modules/is-core-module Completed in 653ms
+654 timing reifyNode:node_modules/webpack-cli/node_modules/es-module-lexer Completed in 655ms
+655 timing reifyNode:node_modules/webpack-cli/node_modules/watchpack Completed in 657ms
+656 timing reifyNode:node_modules/webpack-cli/node_modules/@webpack-cli/serve Completed in 656ms
+657 http fetch GET 200 https://cdn.npmmirror.com/packages/find-up/4.1.0/find-up-4.1.0.tgz 569ms (cache miss)
+658 timing reifyNode:node_modules/webpack-cli/node_modules/find-up Completed in 662ms
+659 timing reifyNode:node_modules/webpack-cli/node_modules/supports-preserve-symlinks-flag Completed in 668ms
+660 timing reifyNode:node_modules/webpack-cli/node_modules/commander Completed in 666ms
+661 timing reifyNode:node_modules/webpack-cli/node_modules/cross-spawn Completed in 668ms
+662 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/helper-wasm-section Completed in 672ms
+663 timing reifyNode:node_modules/webpack-cli/node_modules/tr46 Completed in 680ms
+664 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/leb128 Completed in 679ms
+665 timing reifyNode:node_modules/webpack-cli/node_modules/rechoir Completed in 676ms
+666 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-parser Completed in 680ms
+667 timing reifyNode:node_modules/webpack-cli/node_modules/@xtuc/long Completed in 681ms
+668 timing reifyNode:node_modules/webpack-cli/node_modules/fast-deep-equal Completed in 684ms
+669 timing reifyNode:node_modules/webpack-cli/node_modules/terser-webpack-plugin Completed in 685ms
+670 http fetch GET 200 https://cdn.npmmirror.com/packages/import-local/3.1.0/import-local-3.1.0.tgz 578ms (cache miss)
+671 timing reifyNode:node_modules/webpack-cli/node_modules/import-local Completed in 687ms
+672 timing reifyNode:node_modules/webpack-cli/node_modules/browserslist Completed in 689ms
+673 timing reifyNode:node_modules/webpack-cli/node_modules/function-bind Completed in 691ms
+674 timing reifyNode:node_modules/webpack-cli/node_modules/execa Completed in 690ms
+675 http fetch GET 200 https://cdn.npmmirror.com/packages/colorette/2.0.16/colorette-2.0.16.tgz 572ms (cache miss)
+676 timing reifyNode:node_modules/webpack-cli/node_modules/colorette Completed in 692ms
+677 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/utf8 Completed in 702ms
+678 http fetch GET 200 https://cdn.npmmirror.com/packages/interpret/2.2.0/interpret-2.2.0.tgz 596ms (cache miss)
+679 timing reifyNode:node_modules/webpack-cli/node_modules/interpret Completed in 702ms
+680 timing reifyNode:node_modules/webpack-cli/node_modules/whatwg-url Completed in 708ms
+681 timing reifyNode:node_modules/webpack-cli/node_modules/eslint-scope Completed in 707ms
+682 timing reifyNode:node_modules/webpack-cli/node_modules/human-signals Completed in 712ms
+683 timing reifyNode:node_modules/webpack-cli/node_modules/electron-to-chromium Completed in 722ms
+684 http fetch GET 200 https://cdn.npmmirror.com/packages/fastest-levenshtein/1.0.12/fastest-levenshtein-1.0.12.tgz 605ms (cache miss)
+685 timing reifyNode:node_modules/webpack-cli/node_modules/fastest-levenshtein Completed in 722ms
+686 http fetch GET 200 https://cdn.npmmirror.com/packages/webpack-cli/4.9.2/webpack-cli-4.9.2.tgz 657ms (cache miss)
+687 timing reifyNode:node_modules/webpack-cli Completed in 732ms
+688 timing reifyNode:node_modules/webpack-cli/node_modules/wildcard Completed in 732ms
+689 timing reifyNode:node_modules/webpack-cli/node_modules/@types/eslint Completed in 745ms
+690 timing reifyNode:node_modules/webpack-cli/node_modules/acorn Completed in 745ms
+691 timing reifyNode:node_modules/webpack-cli/node_modules/fast-json-stable-stringify Completed in 751ms
+692 timing reifyNode:node_modules/webpack-cli/node_modules/schema-utils Completed in 753ms
+693 timing reifyNode:node_modules/webpack-cli/node_modules/tapable Completed in 770ms
+694 timing reifyNode:node_modules/webpack-cli/node_modules/terser/node_modules/source-map Completed in 785ms
+695 http fetch GET 200 https://cdn.npmmirror.com/packages/%40discoveryjs/json-ext/0.5.7/json-ext-0.5.7.tgz 660ms (cache miss)
+696 timing reifyNode:node_modules/webpack-cli/node_modules/@discoveryjs/json-ext Completed in 786ms
+697 timing reifyNode:node_modules/webpack-cli/node_modules/webpack-sources Completed in 812ms
+698 timing reifyNode:node_modules/webpack-cli/node_modules/jest-worker Completed in 814ms
+699 http fetch GET 200 https://cdn.npmmirror.com/packages/webpack-merge/5.8.0/webpack-merge-5.8.0.tgz 719ms (cache miss)
+700 timing reifyNode:node_modules/webpack-cli/node_modules/webpack-merge Completed in 823ms
+701 timing reifyNode:node_modules/webpack-cli/node_modules/events Completed in 839ms
+702 timing reifyNode:node_modules/webpack-cli/node_modules/ajv-keywords Completed in 843ms
+703 timing reifyNode:node_modules/webpack-cli/node_modules/source-map Completed in 844ms
+704 timing reifyNode:node_modules/webpack-cli/node_modules/@webassemblyjs/ast Completed in 869ms
+705 timing reifyNode:node_modules/webpack-cli/node_modules/enhanced-resolve Completed in 887ms
+706 timing reifyNode:node_modules/webpack-cli/node_modules/uri-js Completed in 906ms
+707 timing reifyNode:node_modules/webpack-cli/node_modules/terser Completed in 948ms
+708 timing reifyNode:node_modules/webpack-cli/node_modules/@types/node Completed in 978ms
+709 timing reifyNode:node_modules/webpack-cli/node_modules/neo-async Completed in 1006ms
+710 timing reifyNode:node_modules/webpack-cli/node_modules/resolve Completed in 1012ms
+711 timing reifyNode:node_modules/webpack-cli/node_modules/ajv Completed in 1017ms
+712 timing reifyNode:node_modules/webpack-cli/node_modules/webpack Completed in 1789ms
+713 timing reifyNode:node_modules/webpack-cli/node_modules/caniuse-lite Completed in 1900ms
+714 timing reify:unpack Completed in 1902ms
+715 timing reify:unretire Completed in 0ms
+716 timing build:queue Completed in 5ms
+717 timing build:link:node_modules/webpack-cli Completed in 15ms
+718 timing build:link:node_modules/webpack-cli/node_modules/acorn Completed in 15ms
+719 timing build:link:node_modules/webpack-cli/node_modules/browserslist Completed in 15ms
+720 timing build:link:node_modules/webpack-cli/node_modules/envinfo Completed in 15ms
+721 timing build:link:node_modules/webpack-cli/node_modules/import-local Completed in 14ms
+722 timing build:link:node_modules/webpack-cli/node_modules/terser Completed in 14ms
+723 timing build:link:node_modules/webpack-cli/node_modules/webpack Completed in 14ms
+724 timing build:link:node_modules/webpack-cli/node_modules/resolve Completed in 14ms
+725 timing build:link:node_modules/webpack-cli/node_modules/which Completed in 15ms
+726 timing build:link Completed in 16ms
+727 timing build:deps Completed in 22ms
+728 timing build Completed in 22ms
+729 timing reify:build Completed in 22ms
+730 timing reify:trash Completed in 0ms
+731 timing reify Completed in 3722ms
+732 silly ADD node_modules/webpack-cli
+733 silly ADD node_modules/webpack-cli/node_modules/webidl-conversions
+734 silly ADD node_modules/webpack-cli/node_modules/tr46
+735 silly ADD node_modules/webpack-cli/node_modules/lodash.sortby
+736 silly ADD node_modules/webpack-cli/node_modules/whatwg-url
+737 silly ADD node_modules/webpack-cli/node_modules/isexe
+738 silly ADD node_modules/webpack-cli/node_modules/isobject
+739 silly ADD node_modules/webpack-cli/node_modules/shallow-clone
+740 silly ADD node_modules/webpack-cli/node_modules/kind-of
+741 silly ADD node_modules/webpack-cli/node_modules/is-plain-object
+742 silly ADD node_modules/webpack-cli/node_modules/wildcard
+743 silly ADD node_modules/webpack-cli/node_modules/clone-deep
+744 silly ADD node_modules/webpack-cli/node_modules/punycode
+745 silly ADD node_modules/webpack-cli/node_modules/buffer-from
+746 silly ADD node_modules/webpack-cli/node_modules/source-map-support
+747 silly ADD node_modules/webpack-cli/node_modules/has-flag
+748 silly ADD node_modules/webpack-cli/node_modules/safe-buffer
+749 silly ADD node_modules/webpack-cli/node_modules/randombytes
+750 silly ADD node_modules/webpack-cli/node_modules/supports-color
+751 silly ADD node_modules/webpack-cli/node_modules/@types/node
+752 silly ADD node_modules/webpack-cli/node_modules/terser
+753 silly ADD node_modules/webpack-cli/node_modules/terser/node_modules/source-map
+754 silly ADD node_modules/webpack-cli/node_modules/terser/node_modules/commander
+755 silly ADD node_modules/webpack-cli/node_modules/source-map
+756 silly ADD node_modules/webpack-cli/node_modules/serialize-javascript
+757 silly ADD node_modules/webpack-cli/node_modules/jest-worker
+758 silly ADD node_modules/webpack-cli/node_modules/uri-js
+759 silly ADD node_modules/webpack-cli/node_modules/json-schema-traverse
+760 silly ADD node_modules/webpack-cli/node_modules/fast-json-stable-stringify
+761 silly ADD node_modules/webpack-cli/node_modules/fast-deep-equal
+762 silly ADD node_modules/webpack-cli/node_modules/ajv-keywords
+763 silly ADD node_modules/webpack-cli/node_modules/ajv
+764 silly ADD node_modules/webpack-cli/node_modules/mime-db
+765 silly ADD node_modules/webpack-cli/node_modules/estraverse
+766 silly ADD node_modules/webpack-cli/node_modules/esrecurse
+767 silly ADD node_modules/webpack-cli/node_modules/esrecurse/node_modules/estraverse
+768 silly ADD node_modules/webpack-cli/node_modules/picocolors
+769 silly ADD node_modules/webpack-cli/node_modules/node-releases
+770 silly ADD node_modules/webpack-cli/node_modules/escalade
+771 silly ADD node_modules/webpack-cli/node_modules/electron-to-chromium
+772 silly ADD node_modules/webpack-cli/node_modules/caniuse-lite
+773 silly ADD node_modules/webpack-cli/node_modules/@xtuc/ieee754
+774 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/utf8
+775 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/leb128
+776 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/ieee754
+777 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/wast-printer
+778 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-opt
+779 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-gen
+780 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/helper-wasm-section
+781 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/helper-buffer
+782 silly ADD node_modules/webpack-cli/node_modules/@xtuc/long
+783 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/helper-api-error
+784 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/floating-point-hex-parser
+785 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/helper-wasm-bytecode
+786 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/helper-numbers
+787 silly ADD node_modules/webpack-cli/node_modules/@types/json-schema
+788 silly ADD node_modules/webpack-cli/node_modules/@types/eslint
+789 silly ADD node_modules/webpack-cli/node_modules/webpack-sources
+790 silly ADD node_modules/webpack-cli/node_modules/watchpack
+791 silly ADD node_modules/webpack-cli/node_modules/terser-webpack-plugin
+792 silly ADD node_modules/webpack-cli/node_modules/tapable
+793 silly ADD node_modules/webpack-cli/node_modules/schema-utils
+794 silly ADD node_modules/webpack-cli/node_modules/neo-async
+795 silly ADD node_modules/webpack-cli/node_modules/mime-types
+796 silly ADD node_modules/webpack-cli/node_modules/loader-runner
+797 silly ADD node_modules/webpack-cli/node_modules/json-parse-even-better-errors
+798 silly ADD node_modules/webpack-cli/node_modules/graceful-fs
+799 silly ADD node_modules/webpack-cli/node_modules/glob-to-regexp
+800 silly ADD node_modules/webpack-cli/node_modules/events
+801 silly ADD node_modules/webpack-cli/node_modules/eslint-scope
+802 silly ADD node_modules/webpack-cli/node_modules/es-module-lexer
+803 silly ADD node_modules/webpack-cli/node_modules/enhanced-resolve
+804 silly ADD node_modules/webpack-cli/node_modules/chrome-trace-event
+805 silly ADD node_modules/webpack-cli/node_modules/browserslist
+806 silly ADD node_modules/webpack-cli/node_modules/acorn-import-assertions
+807 silly ADD node_modules/webpack-cli/node_modules/acorn
+808 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-parser
+809 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/wasm-edit
+810 silly ADD node_modules/webpack-cli/node_modules/@webassemblyjs/ast
+811 silly ADD node_modules/webpack-cli/node_modules/@types/estree
+812 silly ADD node_modules/webpack-cli/node_modules/@types/eslint-scope
+813 silly ADD node_modules/webpack-cli/node_modules/shebang-regex
+814 silly ADD node_modules/webpack-cli/node_modules/resolve-from
+815 silly ADD node_modules/webpack-cli/node_modules/function-bind
+816 silly ADD node_modules/webpack-cli/node_modules/has
+817 silly ADD node_modules/webpack-cli/node_modules/supports-preserve-symlinks-flag
+818 silly ADD node_modules/webpack-cli/node_modules/path-parse
+819 silly ADD node_modules/webpack-cli/node_modules/is-core-module
+820 silly ADD node_modules/webpack-cli/node_modules/resolve
+821 silly ADD node_modules/webpack-cli/node_modules/p-try
+822 silly ADD node_modules/webpack-cli/node_modules/p-limit
+823 silly ADD node_modules/webpack-cli/node_modules/p-locate
+824 silly ADD node_modules/webpack-cli/node_modules/path-exists
+825 silly ADD node_modules/webpack-cli/node_modules/locate-path
+826 silly ADD node_modules/webpack-cli/node_modules/find-up
+827 silly ADD node_modules/webpack-cli/node_modules/mimic-fn
+828 silly ADD node_modules/webpack-cli/node_modules/resolve-cwd
+829 silly ADD node_modules/webpack-cli/node_modules/pkg-dir
+830 silly ADD node_modules/webpack-cli/node_modules/which
+831 silly ADD node_modules/webpack-cli/node_modules/shebang-command
+832 silly ADD node_modules/webpack-cli/node_modules/path-key
+833 silly ADD node_modules/webpack-cli/node_modules/strip-final-newline
+834 silly ADD node_modules/webpack-cli/node_modules/signal-exit
+835 silly ADD node_modules/webpack-cli/node_modules/onetime
+836 silly ADD node_modules/webpack-cli/node_modules/npm-run-path
+837 silly ADD node_modules/webpack-cli/node_modules/merge-stream
+838 silly ADD node_modules/webpack-cli/node_modules/is-stream
+839 silly ADD node_modules/webpack-cli/node_modules/human-signals
+840 silly ADD node_modules/webpack-cli/node_modules/get-stream
+841 silly ADD node_modules/webpack-cli/node_modules/cross-spawn
+842 silly ADD node_modules/webpack-cli/node_modules/envinfo
+843 silly ADD node_modules/webpack-cli/node_modules/webpack-merge
+844 silly ADD node_modules/webpack-cli/node_modules/rechoir
+845 silly ADD node_modules/webpack-cli/node_modules/interpret
+846 silly ADD node_modules/webpack-cli/node_modules/import-local
+847 silly ADD node_modules/webpack-cli/node_modules/fastest-levenshtein
+848 silly ADD node_modules/webpack-cli/node_modules/execa
+849 silly ADD node_modules/webpack-cli/node_modules/commander
+850 silly ADD node_modules/webpack-cli/node_modules/colorette
+851 silly ADD node_modules/webpack-cli/node_modules/@webpack-cli/serve
+852 silly ADD node_modules/webpack-cli/node_modules/@webpack-cli/info
+853 silly ADD node_modules/webpack-cli/node_modules/webpack
+854 silly ADD node_modules/webpack-cli/node_modules/@webpack-cli/configtest
+855 silly ADD node_modules/webpack-cli/node_modules/@discoveryjs/json-ext
+856 timing command:install Completed in 3727ms
+857 verbose exit 0
+858 timing npm Completed in 3942ms
+859 info ok

@@ -1,0 +1,2 @@
+
+16f14d9b3a88863f4983272b40ccd8862402afee	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/vue-hot-reload-api","integrity":null,"time":1653031779095,"size":"262","metadata":{"time":1653031779095,"url":"https://registry.npm.taobao.org/vue-hot-reload-api","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/vue-hot-reload-api"},"options":{"compress":true},"status":301}}

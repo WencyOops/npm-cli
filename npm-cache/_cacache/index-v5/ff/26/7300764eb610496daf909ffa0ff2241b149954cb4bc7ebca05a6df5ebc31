@@ -1,0 +1,2 @@
+
+cf9607bb6f7e6ad65060896ce275a8e62303ffce	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/bser","integrity":null,"time":1653031783228,"size":"262","metadata":{"time":1653031783228,"url":"https://registry.npm.taobao.org/bser","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/bser"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+1c42e924a29f1cf01dea913f042f99f09d7849d5	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-color-stop","integrity":null,"time":1653031789628,"size":"262","metadata":{"time":1653031789628,"url":"https://registry.npm.taobao.org/is-color-stop","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:49 GMT","location":"https://registry.npmmirror.com/is-color-stop"},"options":{"compress":true},"status":301}}

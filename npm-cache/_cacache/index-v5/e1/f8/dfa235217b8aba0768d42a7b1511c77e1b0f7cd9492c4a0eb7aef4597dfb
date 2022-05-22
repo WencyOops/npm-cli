@@ -1,0 +1,2 @@
+
+5d9ebf19437dfa29e48f5220579d83d606946d3f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/cuint","integrity":null,"time":1653031785073,"size":"262","metadata":{"time":1653031785073,"url":"https://registry.npm.taobao.org/cuint","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/cuint"},"options":{"compress":true},"status":301}}

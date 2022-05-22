@@ -1,0 +1,636 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.10.0
+2 info using node@v16.15.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:C:\Users\Cell\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\Cell\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 10ms
+18 timing npm:load:configload Completed in 11ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install webpack
+22 verbose argv "install" "--global" "webpack"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 2ms
+25 timing npm:load:display Completed in 4ms
+26 verbose logfile logs-max:10 dir:C:\Users\Cell\AppData\Local\npm-cache\_logs
+27 verbose logfile C:\Users\Cell\AppData\Local\npm-cache\_logs\2022-05-20T09_33_19_637Z-debug-0.log
+28 timing npm:load:logFile Completed in 5ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 22ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 2 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 5ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest webpack@*
+39 http fetch GET 200 https://registry.npmmirror.com/webpack 129ms (cache revalidated)
+40 silly placeDep ROOT webpack@5.72.1 OK for:  want: *
+41 silly fetch manifest @types/eslint-scope@^3.7.3
+42 silly fetch manifest @types/estree@^0.0.51
+43 silly fetch manifest @webassemblyjs/ast@1.11.1
+44 silly fetch manifest @webassemblyjs/wasm-edit@1.11.1
+45 silly fetch manifest @webassemblyjs/wasm-parser@1.11.1
+46 silly fetch manifest acorn@^8.4.1
+47 silly fetch manifest acorn-import-assertions@^1.7.6
+48 silly fetch manifest browserslist@^4.14.5
+49 silly fetch manifest chrome-trace-event@^1.0.2
+50 silly fetch manifest enhanced-resolve@^5.9.3
+51 silly fetch manifest es-module-lexer@^0.9.0
+52 silly fetch manifest eslint-scope@5.1.1
+53 silly fetch manifest events@^3.2.0
+54 silly fetch manifest glob-to-regexp@^0.4.1
+55 silly fetch manifest graceful-fs@^4.2.9
+56 silly fetch manifest json-parse-even-better-errors@^2.3.1
+57 silly fetch manifest loader-runner@^4.2.0
+58 silly fetch manifest mime-types@^2.1.27
+59 silly fetch manifest neo-async@^2.6.2
+60 silly fetch manifest schema-utils@^3.1.0
+61 silly fetch manifest tapable@^2.1.1
+62 silly fetch manifest terser-webpack-plugin@^5.1.3
+63 silly fetch manifest watchpack@^2.3.1
+64 silly fetch manifest webpack-sources@^3.2.3
+65 http fetch GET 200 https://registry.npmmirror.com/json-parse-even-better-errors 90ms (cache hit)
+66 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fast 101ms (cache revalidated)
+67 http fetch GET 200 https://registry.npmmirror.com/neo-async 149ms (cache hit)
+68 http fetch GET 200 https://registry.npmmirror.com/graceful-fs 156ms (cache hit)
+69 http fetch GET 200 https://registry.npmmirror.com/browserslist 171ms (cache hit)
+70 http fetch GET 200 https://registry.npmmirror.com/mime-types 167ms (cache hit)
+71 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-parser 180ms (cache revalidated)
+72 http fetch GET 200 https://registry.npmmirror.com/@types%2feslint-scope 195ms (cache revalidated)
+73 http fetch GET 200 https://registry.npmmirror.com/eslint-scope 192ms (cache revalidated)
+74 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-edit 198ms (cache revalidated)
+75 http fetch GET 200 https://registry.npmmirror.com/events 193ms (cache revalidated)
+76 http fetch GET 200 https://registry.npmmirror.com/glob-to-regexp 194ms (cache revalidated)
+77 http fetch GET 200 https://registry.npmmirror.com/enhanced-resolve 197ms (cache revalidated)
+78 http fetch GET 200 https://registry.npmmirror.com/terser-webpack-plugin 193ms (cache revalidated)
+79 http fetch GET 200 https://registry.npmmirror.com/acorn-import-assertions 202ms (cache revalidated)
+80 http fetch GET 200 https://registry.npmmirror.com/acorn 203ms (cache revalidated)
+81 http fetch GET 200 https://registry.npmmirror.com/webpack-sources 198ms (cache revalidated)
+82 http fetch GET 200 https://registry.npmmirror.com/schema-utils 202ms (cache revalidated)
+83 http fetch GET 200 https://registry.npmmirror.com/watchpack 203ms (cache revalidated)
+84 http fetch GET 200 https://registry.npmmirror.com/loader-runner 206ms (cache revalidated)
+85 http fetch GET 200 https://registry.npmmirror.com/chrome-trace-event 215ms (cache revalidated)
+86 http fetch GET 200 https://registry.npmmirror.com/tapable 208ms (cache revalidated)
+87 http fetch GET 200 https://registry.npmmirror.com/@types%2festree 248ms (cache revalidated)
+88 http fetch GET 200 https://registry.npmmirror.com/es-module-lexer 272ms (cache revalidated)
+89 timing idealTree:#root Completed in 429ms
+90 silly fetch manifest webpack@^5.1.0
+91 silly placeDep node_modules/webpack @types/eslint-scope@3.7.3 OK for: webpack@5.72.1 want: ^3.7.3
+92 silly placeDep node_modules/webpack @types/estree@0.0.51 OK for: webpack@5.72.1 want: ^0.0.51
+93 silly placeDep node_modules/webpack @webassemblyjs/ast@1.11.1 OK for: webpack@5.72.1 want: 1.11.1
+94 silly placeDep node_modules/webpack @webassemblyjs/wasm-edit@1.11.1 OK for: webpack@5.72.1 want: 1.11.1
+95 silly placeDep node_modules/webpack @webassemblyjs/wasm-parser@1.11.1 OK for: webpack@5.72.1 want: 1.11.1
+96 silly placeDep node_modules/webpack acorn@8.7.1 OK for: webpack@5.72.1 want: ^8.4.1
+97 silly placeDep node_modules/webpack acorn-import-assertions@1.8.0 OK for: webpack@5.72.1 want: ^1.7.6
+98 silly placeDep node_modules/webpack browserslist@4.20.3 OK for: webpack@5.72.1 want: ^4.14.5
+99 silly placeDep node_modules/webpack chrome-trace-event@1.0.3 OK for: webpack@5.72.1 want: ^1.0.2
+100 silly placeDep node_modules/webpack enhanced-resolve@5.9.3 OK for: webpack@5.72.1 want: ^5.9.3
+101 silly placeDep node_modules/webpack es-module-lexer@0.9.3 OK for: webpack@5.72.1 want: ^0.9.0
+102 silly placeDep node_modules/webpack eslint-scope@5.1.1 OK for: webpack@5.72.1 want: 5.1.1
+103 silly placeDep node_modules/webpack events@3.3.0 OK for: webpack@5.72.1 want: ^3.2.0
+104 silly placeDep node_modules/webpack glob-to-regexp@0.4.1 OK for: webpack@5.72.1 want: ^0.4.1
+105 silly placeDep node_modules/webpack graceful-fs@4.2.10 OK for: webpack@5.72.1 want: ^4.2.9
+106 silly placeDep node_modules/webpack json-parse-even-better-errors@2.3.1 OK for: webpack@5.72.1 want: ^2.3.1
+107 silly placeDep node_modules/webpack loader-runner@4.3.0 OK for: webpack@5.72.1 want: ^4.2.0
+108 silly placeDep node_modules/webpack mime-types@2.1.35 OK for: webpack@5.72.1 want: ^2.1.27
+109 silly placeDep node_modules/webpack neo-async@2.6.2 OK for: webpack@5.72.1 want: ^2.6.2
+110 silly placeDep node_modules/webpack schema-utils@3.1.1 OK for: webpack@5.72.1 want: ^3.1.0
+111 silly placeDep node_modules/webpack tapable@2.2.1 OK for: webpack@5.72.1 want: ^2.1.1
+112 silly placeDep node_modules/webpack terser-webpack-plugin@5.3.1 OK for: webpack@5.72.1 want: ^5.1.3
+113 silly placeDep node_modules/webpack watchpack@2.3.1 OK for: webpack@5.72.1 want: ^2.3.1
+114 silly placeDep node_modules/webpack webpack-sources@3.2.3 OK for: webpack@5.72.1 want: ^3.2.3
+115 silly fetch manifest @types/eslint@*
+116 silly fetch manifest @webassemblyjs/helper-numbers@1.11.1
+117 silly fetch manifest @webassemblyjs/helper-wasm-bytecode@1.11.1
+118 silly fetch manifest @webassemblyjs/helper-buffer@1.11.1
+119 silly fetch manifest @webassemblyjs/helper-wasm-section@1.11.1
+120 silly fetch manifest @webassemblyjs/wasm-gen@1.11.1
+121 silly fetch manifest @webassemblyjs/wasm-opt@1.11.1
+122 silly fetch manifest @webassemblyjs/wast-printer@1.11.1
+123 silly fetch manifest @webassemblyjs/helper-api-error@1.11.1
+124 silly fetch manifest @webassemblyjs/ieee754@1.11.1
+125 silly fetch manifest @webassemblyjs/leb128@1.11.1
+126 silly fetch manifest @webassemblyjs/utf8@1.11.1
+127 silly fetch manifest caniuse-lite@^1.0.30001332
+128 silly fetch manifest electron-to-chromium@^1.4.118
+129 silly fetch manifest escalade@^3.1.1
+130 silly fetch manifest node-releases@^2.0.3
+131 silly fetch manifest picocolors@^1.0.0
+132 silly fetch manifest esrecurse@^4.3.0
+133 silly fetch manifest estraverse@^4.1.1
+134 silly fetch manifest mime-db@1.52.0
+135 silly fetch manifest @types/json-schema@^7.0.8
+136 silly fetch manifest ajv@^6.12.5
+137 silly fetch manifest ajv-keywords@^3.5.2
+138 silly fetch manifest jest-worker@^27.4.5
+139 silly fetch manifest serialize-javascript@^6.0.0
+140 silly fetch manifest source-map@^0.6.1
+141 silly fetch manifest terser@^5.7.2
+142 http fetch GET 200 https://registry.npmmirror.com/escalade 116ms (cache hit)
+143 http fetch GET 200 https://registry.npmmirror.com/electron-to-chromium 119ms (cache hit)
+144 http fetch GET 200 https://registry.npmmirror.com/mime-db 119ms (cache hit)
+145 http fetch GET 200 https://registry.npmmirror.com/caniuse-lite 125ms (cache hit)
+146 http fetch GET 200 https://registry.npmmirror.com/picocolors 139ms (cache hit)
+147 http fetch GET 200 https://registry.npmmirror.com/source-map 134ms (cache hit)
+148 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-numbers 151ms (cache revalidated)
+149 http fetch GET 200 https://registry.npmmirror.com/@types%2feslint 153ms (cache revalidated)
+150 http fetch GET 200 https://registry.npmmirror.com/node-releases 145ms (cache hit)
+151 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-wasm-section 155ms (cache revalidated)
+152 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-opt 160ms (cache revalidated)
+153 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-buffer 163ms (cache revalidated)
+154 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwasm-gen 164ms (cache revalidated)
+155 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fwast-printer 163ms (cache revalidated)
+156 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-api-error 163ms (cache revalidated)
+157 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2futf8 160ms (cache revalidated)
+158 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fieee754 162ms (cache revalidated)
+159 http fetch GET 200 https://registry.npmmirror.com/@types%2fjson-schema 158ms (cache revalidated)
+160 http fetch GET 200 https://registry.npmmirror.com/estraverse 536ms (cache revalidated)
+161 http fetch GET 200 https://registry.npmmirror.com/ajv-keywords 537ms (cache revalidated)
+162 http fetch GET 200 https://registry.npmmirror.com/esrecurse 543ms (cache revalidated)
+163 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fleb128 547ms (cache revalidated)
+164 http fetch GET 200 https://registry.npmmirror.com/ajv 542ms (cache revalidated)
+165 http fetch GET 200 https://registry.npmmirror.com/terser 544ms (cache revalidated)
+166 http fetch GET 200 https://registry.npmmirror.com/serialize-javascript 546ms (cache revalidated)
+167 http fetch GET 200 https://registry.npmmirror.com/jest-worker 548ms (cache revalidated)
+168 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2fhelper-wasm-bytecode 565ms (cache revalidated)
+169 timing idealTree:node_modules/webpack Completed in 601ms
+170 silly placeDep node_modules/webpack @types/eslint@8.4.2 OK for: @types/eslint-scope@3.7.3 want: *
+171 silly fetch manifest @types/json-schema@*
+172 timing idealTree:node_modules/webpack/node_modules/@types/eslint-scope Completed in 1ms
+173 silly placeDep node_modules/webpack @types/json-schema@7.0.11 OK for: @types/eslint@8.4.2 want: *
+174 timing idealTree:node_modules/webpack/node_modules/@types/eslint Completed in 1ms
+175 timing idealTree:node_modules/webpack/node_modules/@types/estree Completed in 0ms
+176 timing idealTree:node_modules/webpack/node_modules/@types/json-schema Completed in 0ms
+177 silly placeDep node_modules/webpack @webassemblyjs/helper-numbers@1.11.1 OK for: @webassemblyjs/ast@1.11.1 want: 1.11.1
+178 silly placeDep node_modules/webpack @webassemblyjs/helper-wasm-bytecode@1.11.1 OK for: @webassemblyjs/ast@1.11.1 want: 1.11.1
+179 silly fetch manifest @webassemblyjs/floating-point-hex-parser@1.11.1
+180 silly fetch manifest @xtuc/long@4.2.2
+181 http fetch GET 200 https://registry.npmmirror.com/@xtuc%2flong 38ms (cache revalidated)
+182 http fetch GET 200 https://registry.npmmirror.com/@webassemblyjs%2ffloating-point-hex-parser 55ms (cache revalidated)
+183 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/ast Completed in 58ms
+184 silly placeDep node_modules/webpack @webassemblyjs/floating-point-hex-parser@1.11.1 OK for: @webassemblyjs/helper-numbers@1.11.1 want: 1.11.1
+185 silly placeDep node_modules/webpack @webassemblyjs/helper-api-error@1.11.1 OK for: @webassemblyjs/helper-numbers@1.11.1 want: 1.11.1
+186 silly placeDep node_modules/webpack @xtuc/long@4.2.2 OK for: @webassemblyjs/helper-numbers@1.11.1 want: 4.2.2
+187 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/helper-numbers Completed in 3ms
+188 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/floating-point-hex-parser Completed in 0ms
+189 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/helper-api-error Completed in 0ms
+190 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/helper-wasm-bytecode Completed in 0ms
+191 silly placeDep node_modules/webpack @webassemblyjs/helper-buffer@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+192 silly placeDep node_modules/webpack @webassemblyjs/helper-wasm-section@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+193 silly placeDep node_modules/webpack @webassemblyjs/wasm-gen@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+194 silly placeDep node_modules/webpack @webassemblyjs/wasm-opt@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+195 silly placeDep node_modules/webpack @webassemblyjs/wast-printer@1.11.1 OK for: @webassemblyjs/wasm-edit@1.11.1 want: 1.11.1
+196 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/wasm-edit Completed in 5ms
+197 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/helper-buffer Completed in 0ms
+198 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/helper-wasm-section Completed in 0ms
+199 silly placeDep node_modules/webpack @webassemblyjs/ieee754@1.11.1 OK for: @webassemblyjs/wasm-gen@1.11.1 want: 1.11.1
+200 silly placeDep node_modules/webpack @webassemblyjs/leb128@1.11.1 OK for: @webassemblyjs/wasm-gen@1.11.1 want: 1.11.1
+201 silly placeDep node_modules/webpack @webassemblyjs/utf8@1.11.1 OK for: @webassemblyjs/wasm-gen@1.11.1 want: 1.11.1
+202 silly fetch manifest @xtuc/ieee754@^1.2.0
+203 http fetch GET 200 https://registry.npmmirror.com/@xtuc%2fieee754 35ms (cache revalidated)
+204 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/wasm-gen Completed in 38ms
+205 silly placeDep node_modules/webpack @xtuc/ieee754@1.2.0 OK for: @webassemblyjs/ieee754@1.11.1 want: ^1.2.0
+206 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/ieee754 Completed in 1ms
+207 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/leb128 Completed in 0ms
+208 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/utf8 Completed in 0ms
+209 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/wasm-opt Completed in 0ms
+210 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/wasm-parser Completed in 0ms
+211 timing idealTree:node_modules/webpack/node_modules/@webassemblyjs/wast-printer Completed in 0ms
+212 timing idealTree:node_modules/webpack/node_modules/@xtuc/ieee754 Completed in 0ms
+213 timing idealTree:node_modules/webpack/node_modules/@xtuc/long Completed in 0ms
+214 timing idealTree:node_modules/webpack/node_modules/acorn Completed in 0ms
+215 timing idealTree:node_modules/webpack/node_modules/acorn-import-assertions Completed in 0ms
+216 silly placeDep node_modules/webpack caniuse-lite@1.0.30001341 OK for: browserslist@4.20.3 want: ^1.0.30001332
+217 silly placeDep node_modules/webpack electron-to-chromium@1.4.137 OK for: browserslist@4.20.3 want: ^1.4.118
+218 silly placeDep node_modules/webpack escalade@3.1.1 OK for: browserslist@4.20.3 want: ^3.1.1
+219 silly placeDep node_modules/webpack node-releases@2.0.4 OK for: browserslist@4.20.3 want: ^2.0.3
+220 silly placeDep node_modules/webpack picocolors@1.0.0 OK for: browserslist@4.20.3 want: ^1.0.0
+221 timing idealTree:node_modules/webpack/node_modules/browserslist Completed in 4ms
+222 timing idealTree:node_modules/webpack/node_modules/caniuse-lite Completed in 0ms
+223 timing idealTree:node_modules/webpack/node_modules/chrome-trace-event Completed in 0ms
+224 timing idealTree:node_modules/webpack/node_modules/electron-to-chromium Completed in 0ms
+225 timing idealTree:node_modules/webpack/node_modules/enhanced-resolve Completed in 0ms
+226 timing idealTree:node_modules/webpack/node_modules/es-module-lexer Completed in 0ms
+227 timing idealTree:node_modules/webpack/node_modules/escalade Completed in 0ms
+228 silly placeDep node_modules/webpack esrecurse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.3.0
+229 silly placeDep node_modules/webpack estraverse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.1.1
+230 silly fetch manifest estraverse@^5.2.0
+231 timing idealTree:node_modules/webpack/node_modules/eslint-scope Completed in 2ms
+232 silly placeDep node_modules/webpack/node_modules/esrecurse estraverse@5.3.0 OK for: esrecurse@4.3.0 want: ^5.2.0
+233 timing idealTree:node_modules/webpack/node_modules/esrecurse Completed in 1ms
+234 timing idealTree:node_modules/webpack/node_modules/estraverse Completed in 0ms
+235 timing idealTree:node_modules/webpack/node_modules/events Completed in 0ms
+236 timing idealTree:node_modules/webpack/node_modules/glob-to-regexp Completed in 0ms
+237 timing idealTree:node_modules/webpack/node_modules/graceful-fs Completed in 0ms
+238 timing idealTree:node_modules/webpack/node_modules/json-parse-even-better-errors Completed in 0ms
+239 timing idealTree:node_modules/webpack/node_modules/loader-runner Completed in 0ms
+240 silly placeDep node_modules/webpack mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+241 timing idealTree:node_modules/webpack/node_modules/mime-types Completed in 1ms
+242 timing idealTree:node_modules/webpack/node_modules/mime-db Completed in 0ms
+243 timing idealTree:node_modules/webpack/node_modules/neo-async Completed in 0ms
+244 timing idealTree:node_modules/webpack/node_modules/node-releases Completed in 0ms
+245 timing idealTree:node_modules/webpack/node_modules/picocolors Completed in 0ms
+246 silly placeDep node_modules/webpack ajv@6.12.6 OK for: schema-utils@3.1.1 want: ^6.12.5
+247 silly placeDep node_modules/webpack ajv-keywords@3.5.2 OK for: schema-utils@3.1.1 want: ^3.5.2
+248 silly fetch manifest fast-deep-equal@^3.1.1
+249 silly fetch manifest fast-json-stable-stringify@^2.0.0
+250 silly fetch manifest json-schema-traverse@^0.4.1
+251 silly fetch manifest uri-js@^4.2.2
+252 http fetch GET 200 https://registry.npmmirror.com/fast-json-stable-stringify 40ms (cache hit)
+253 http fetch GET 200 https://registry.npmmirror.com/fast-deep-equal 48ms (cache revalidated)
+254 http fetch GET 200 https://registry.npmmirror.com/json-schema-traverse 48ms (cache revalidated)
+255 http fetch GET 200 https://registry.npmmirror.com/uri-js 48ms (cache revalidated)
+256 timing idealTree:node_modules/webpack/node_modules/schema-utils Completed in 54ms
+257 silly placeDep node_modules/webpack fast-deep-equal@3.1.3 OK for: ajv@6.12.6 want: ^3.1.1
+258 silly placeDep node_modules/webpack fast-json-stable-stringify@2.1.0 OK for: ajv@6.12.6 want: ^2.0.0
+259 silly placeDep node_modules/webpack json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+260 silly placeDep node_modules/webpack uri-js@4.4.1 OK for: ajv@6.12.6 want: ^4.2.2
+261 silly fetch manifest punycode@^2.1.0
+262 http fetch GET 200 https://registry.npmmirror.com/punycode 36ms (cache revalidated)
+263 timing idealTree:node_modules/webpack/node_modules/ajv Completed in 40ms
+264 timing idealTree:node_modules/webpack/node_modules/ajv-keywords Completed in 0ms
+265 timing idealTree:node_modules/webpack/node_modules/fast-deep-equal Completed in 1ms
+266 timing idealTree:node_modules/webpack/node_modules/fast-json-stable-stringify Completed in 0ms
+267 timing idealTree:node_modules/webpack/node_modules/json-schema-traverse Completed in 0ms
+268 timing idealTree:node_modules/webpack/node_modules/tapable Completed in 0ms
+269 silly placeDep node_modules/webpack jest-worker@27.5.1 OK for: terser-webpack-plugin@5.3.1 want: ^27.4.5
+270 silly placeDep node_modules/webpack serialize-javascript@6.0.0 OK for: terser-webpack-plugin@5.3.1 want: ^6.0.0
+271 silly placeDep node_modules/webpack source-map@0.6.1 OK for: terser-webpack-plugin@5.3.1 want: ^0.6.1
+272 silly placeDep node_modules/webpack terser@5.13.1 OK for: terser-webpack-plugin@5.3.1 want: ^5.7.2
+273 silly fetch manifest @types/node@*
+274 silly fetch manifest merge-stream@^2.0.0
+275 silly fetch manifest supports-color@^8.0.0
+276 silly fetch manifest randombytes@^2.1.0
+277 silly fetch manifest commander@^2.20.0
+278 silly fetch manifest source-map@~0.8.0-beta.0
+279 silly fetch manifest source-map-support@~0.5.20
+280 http fetch GET 200 https://registry.npmmirror.com/commander 40ms (cache hit)
+281 http fetch GET 200 https://registry.npmmirror.com/merge-stream 43ms (cache hit)
+282 http fetch GET 200 https://registry.npmmirror.com/supports-color 43ms (cache hit)
+283 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode 46ms (cache hit)
+284 http fetch GET 200 https://registry.npmmirror.com/source-map-support 52ms (cache hit)
+285 http fetch GET 200 https://registry.npmmirror.com/randombytes 61ms (cache revalidated)
+286 timing idealTree:node_modules/webpack/node_modules/terser-webpack-plugin Completed in 66ms
+287 silly placeDep node_modules/webpack @types/node@17.0.35 OK for: jest-worker@27.5.1 want: *
+288 silly placeDep node_modules/webpack merge-stream@2.0.0 OK for: jest-worker@27.5.1 want: ^2.0.0
+289 silly placeDep node_modules/webpack supports-color@8.1.1 OK for: jest-worker@27.5.1 want: ^8.0.0
+290 silly fetch manifest has-flag@^4.0.0
+291 http fetch GET 200 https://registry.npmmirror.com/has-flag 27ms (cache hit)
+292 timing idealTree:node_modules/webpack/node_modules/jest-worker Completed in 30ms
+293 timing idealTree:node_modules/webpack/node_modules/@types/node Completed in 0ms
+294 timing idealTree:node_modules/webpack/node_modules/merge-stream Completed in 0ms
+295 silly placeDep node_modules/webpack randombytes@2.1.0 OK for: serialize-javascript@6.0.0 want: ^2.1.0
+296 silly fetch manifest safe-buffer@^5.1.0
+297 http fetch GET 200 https://registry.npmmirror.com/safe-buffer 27ms (cache hit)
+298 timing idealTree:node_modules/webpack/node_modules/serialize-javascript Completed in 30ms
+299 silly placeDep node_modules/webpack safe-buffer@5.2.1 OK for: randombytes@2.1.0 want: ^5.1.0
+300 timing idealTree:node_modules/webpack/node_modules/randombytes Completed in 0ms
+301 timing idealTree:node_modules/webpack/node_modules/safe-buffer Completed in 0ms
+302 timing idealTree:node_modules/webpack/node_modules/source-map Completed in 0ms
+303 silly placeDep node_modules/webpack has-flag@4.0.0 OK for: supports-color@8.1.1 want: ^4.0.0
+304 timing idealTree:node_modules/webpack/node_modules/supports-color Completed in 1ms
+305 timing idealTree:node_modules/webpack/node_modules/has-flag Completed in 0ms
+306 silly placeDep node_modules/webpack commander@2.20.3 OK for: terser@5.13.1 want: ^2.20.0
+307 silly placeDep node_modules/webpack/node_modules/terser source-map@0.8.0-beta.0 OK for: terser@5.13.1 want: ~0.8.0-beta.0
+308 silly placeDep node_modules/webpack source-map-support@0.5.21 OK for: terser@5.13.1 want: ~0.5.20
+309 silly fetch manifest whatwg-url@^7.0.0
+310 silly fetch manifest buffer-from@^1.0.0
+311 http fetch GET 200 https://registry.npmmirror.com/whatwg-url 31ms (cache hit)
+312 http fetch GET 200 https://registry.npmmirror.com/buffer-from 31ms (cache hit)
+313 timing idealTree:node_modules/webpack/node_modules/terser Completed in 35ms
+314 timing idealTree:node_modules/webpack/node_modules/commander Completed in 0ms
+315 silly placeDep node_modules/webpack buffer-from@1.1.2 OK for: source-map-support@0.5.21 want: ^1.0.0
+316 timing idealTree:node_modules/webpack/node_modules/source-map-support Completed in 1ms
+317 timing idealTree:node_modules/webpack/node_modules/buffer-from Completed in 0ms
+318 silly placeDep node_modules/webpack punycode@2.1.1 OK for: uri-js@4.4.1 want: ^2.1.0
+319 timing idealTree:node_modules/webpack/node_modules/uri-js Completed in 1ms
+320 timing idealTree:node_modules/webpack/node_modules/punycode Completed in 0ms
+321 timing idealTree:node_modules/webpack/node_modules/watchpack Completed in 0ms
+322 timing idealTree:node_modules/webpack/node_modules/webpack-sources Completed in 0ms
+323 timing idealTree:node_modules/webpack/node_modules/esrecurse/node_modules/estraverse Completed in 0ms
+324 silly placeDep node_modules/webpack whatwg-url@7.1.0 OK for: source-map@0.8.0-beta.0 want: ^7.0.0
+325 silly fetch manifest lodash.sortby@^4.7.0
+326 silly fetch manifest tr46@^1.0.1
+327 silly fetch manifest webidl-conversions@^4.0.2
+328 http fetch GET 200 https://registry.npmmirror.com/lodash.sortby 34ms (cache hit)
+329 http fetch GET 200 https://registry.npmmirror.com/tr46 33ms (cache hit)
+330 http fetch GET 200 https://registry.npmmirror.com/webidl-conversions 34ms (cache hit)
+331 timing idealTree:node_modules/webpack/node_modules/terser/node_modules/source-map Completed in 37ms
+332 silly placeDep node_modules/webpack lodash.sortby@4.7.0 OK for: whatwg-url@7.1.0 want: ^4.7.0
+333 silly placeDep node_modules/webpack tr46@1.0.1 OK for: whatwg-url@7.1.0 want: ^1.0.1
+334 silly placeDep node_modules/webpack webidl-conversions@4.0.2 OK for: whatwg-url@7.1.0 want: ^4.0.2
+335 timing idealTree:node_modules/webpack/node_modules/whatwg-url Completed in 2ms
+336 timing idealTree:node_modules/webpack/node_modules/lodash.sortby Completed in 0ms
+337 timing idealTree:node_modules/webpack/node_modules/tr46 Completed in 0ms
+338 timing idealTree:node_modules/webpack/node_modules/webidl-conversions Completed in 0ms
+339 timing idealTree:buildDeps Completed in 1447ms
+340 timing idealTree:fixDepFlags Completed in 1ms
+341 timing idealTree Completed in 1458ms
+342 timing reify:loadTrees Completed in 1460ms
+343 timing reify:diffTrees Completed in 3ms
+344 silly reify moves {}
+345 timing reify:retireShallow Completed in 1ms
+346 timing reify:createSparse Completed in 48ms
+347 timing reify:loadBundles Completed in 0ms
+348 silly audit bulk request {
+348 silly audit   webpack: [ '5.72.1' ],
+348 silly audit   '@types/eslint-scope': [ '3.7.3' ],
+348 silly audit   '@types/estree': [ '0.0.51' ],
+348 silly audit   '@webassemblyjs/ast': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/wasm-edit': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/wasm-parser': [ '1.11.1' ],
+348 silly audit   acorn: [ '8.7.1' ],
+348 silly audit   'acorn-import-assertions': [ '1.8.0' ],
+348 silly audit   browserslist: [ '4.20.3' ],
+348 silly audit   'chrome-trace-event': [ '1.0.3' ],
+348 silly audit   'enhanced-resolve': [ '5.9.3' ],
+348 silly audit   'es-module-lexer': [ '0.9.3' ],
+348 silly audit   'eslint-scope': [ '5.1.1' ],
+348 silly audit   events: [ '3.3.0' ],
+348 silly audit   'glob-to-regexp': [ '0.4.1' ],
+348 silly audit   'graceful-fs': [ '4.2.10' ],
+348 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+348 silly audit   'loader-runner': [ '4.3.0' ],
+348 silly audit   'mime-types': [ '2.1.35' ],
+348 silly audit   'neo-async': [ '2.6.2' ],
+348 silly audit   'schema-utils': [ '3.1.1' ],
+348 silly audit   tapable: [ '2.2.1' ],
+348 silly audit   'terser-webpack-plugin': [ '5.3.1' ],
+348 silly audit   watchpack: [ '2.3.1' ],
+348 silly audit   'webpack-sources': [ '3.2.3' ],
+348 silly audit   '@types/eslint': [ '8.4.2' ],
+348 silly audit   '@types/json-schema': [ '7.0.11' ],
+348 silly audit   '@webassemblyjs/helper-numbers': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/helper-api-error': [ '1.11.1' ],
+348 silly audit   '@xtuc/long': [ '4.2.2' ],
+348 silly audit   '@webassemblyjs/helper-buffer': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/wasm-gen': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/wasm-opt': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/wast-printer': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/ieee754': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/leb128': [ '1.11.1' ],
+348 silly audit   '@webassemblyjs/utf8': [ '1.11.1' ],
+348 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+348 silly audit   'caniuse-lite': [ '1.0.30001341' ],
+348 silly audit   'electron-to-chromium': [ '1.4.137' ],
+348 silly audit   escalade: [ '3.1.1' ],
+348 silly audit   'node-releases': [ '2.0.4' ],
+348 silly audit   picocolors: [ '1.0.0' ],
+348 silly audit   esrecurse: [ '4.3.0' ],
+348 silly audit   estraverse: [ '4.3.0', '5.3.0' ],
+348 silly audit   'mime-db': [ '1.52.0' ],
+348 silly audit   ajv: [ '6.12.6' ],
+348 silly audit   'ajv-keywords': [ '3.5.2' ],
+348 silly audit   'fast-deep-equal': [ '3.1.3' ],
+348 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+348 silly audit   'json-schema-traverse': [ '0.4.1' ],
+348 silly audit   'uri-js': [ '4.4.1' ],
+348 silly audit   'jest-worker': [ '27.5.1' ],
+348 silly audit   'serialize-javascript': [ '6.0.0' ],
+348 silly audit   'source-map': [ '0.6.1', '0.8.0-beta.0' ],
+348 silly audit   terser: [ '5.13.1' ],
+348 silly audit   '@types/node': [ '17.0.35' ],
+348 silly audit   'merge-stream': [ '2.0.0' ],
+348 silly audit   'supports-color': [ '8.1.1' ],
+348 silly audit   randombytes: [ '2.1.0' ],
+348 silly audit   'safe-buffer': [ '5.2.1' ],
+348 silly audit   'has-flag': [ '4.0.0' ],
+348 silly audit   commander: [ '2.20.3' ],
+348 silly audit   'source-map-support': [ '0.5.21' ],
+348 silly audit   'buffer-from': [ '1.1.2' ],
+348 silly audit   punycode: [ '2.1.1' ],
+348 silly audit   'whatwg-url': [ '7.1.0' ],
+348 silly audit   'lodash.sortby': [ '4.7.0' ],
+348 silly audit   tr46: [ '1.0.1' ],
+348 silly audit   'webidl-conversions': [ '4.0.2' ]
+348 silly audit }
+349 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 58ms (cache skip)
+350 silly audit bulk request failed <h1>404 Not Found</h1>
+351 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 207ms (cache skip)
+352 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick
+352 verbose audit error     at C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:93:15
+352 verbose audit error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+352 verbose audit error     at async Map.[getReport] (C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:333:21)
+352 verbose audit error     at async Map.run (C:\Users\Cell\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+352 verbose audit error   headers: [Object: null prototype] {
+352 verbose audit error     server: [ 'Tengine' ],
+352 verbose audit error     'content-type': [ 'text/html; charset=utf-8' ],
+352 verbose audit error     'content-length': [ '41' ],
+352 verbose audit error     connection: [ 'keep-alive' ],
+352 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+352 verbose audit error     date: [ 'Fri, 20 May 2022 09:33:22 GMT' ],
+352 verbose audit error     vary: [ 'Origin' ],
+352 verbose audit error     'x-frame-options': [ 'SAMEORIGIN' ],
+352 verbose audit error     'x-xss-protection': [ '1; mode=block' ],
+352 verbose audit error     'x-content-type-options': [ 'nosniff' ],
+352 verbose audit error     'x-download-options': [ 'noopen' ],
+352 verbose audit error     'x-readtime': [ '1.923' ],
+352 verbose audit error     'content-encoding': [ 'gzip' ],
+352 verbose audit error     'ali-swift-global-savetime': [ '1653039202' ],
+352 verbose audit error     via: [
+352 verbose audit error       'cache10.l2cn1813[36,35,404-1280,M], cache15.l2cn1813[37,0], kunlun3.cn1361[52,51,404-1280,M], kunlun6.cn1361[53,0]'
+352 verbose audit error     ],
+352 verbose audit error     'x-cache': [ 'MISS TCP_MISS dirn:-2:-2' ],
+352 verbose audit error     'x-swift-savetime': [ 'Fri, 20 May 2022 09:33:22 GMT' ],
+352 verbose audit error     'x-swift-cachetime': [ '1' ],
+352 verbose audit error     'x-swift-error': [ 'orig response 4XX error' ],
+352 verbose audit error     'timing-allow-origin': [ '*' ],
+352 verbose audit error     eagleid: [ 'b706e79a16530392020134685e' ],
+352 verbose audit error     'x-fetch-attempts': [ '1' ],
+352 verbose audit error     'x-local-cache-status': [ 'skip' ]
+352 verbose audit error   },
+352 verbose audit error   statusCode: 404,
+352 verbose audit error   code: 'E404',
+352 verbose audit error   method: 'POST',
+352 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+352 verbose audit error   body: <Buffer 3c 68 31 3e 34 30 34 20 4e 6f 74 20 46 6f 75 6e 64 3c 2f 68 31 3e>,
+352 verbose audit error   pkgid: undefined
+352 verbose audit error }
+353 silly audit error <h1>404 Not Found</h1>
+354 timing auditReport:getReport Completed in 284ms
+355 silly audit report null
+356 timing reify:audit Completed in 286ms
+357 timing reifyNode:node_modules/webpack/node_modules/merge-stream Completed in 316ms
+358 timing reifyNode:node_modules/webpack/node_modules/buffer-from Completed in 317ms
+359 timing reifyNode:node_modules/webpack/node_modules/serialize-javascript Completed in 330ms
+360 timing reifyNode:node_modules/webpack/node_modules/@types/eslint-scope Completed in 328ms
+361 timing reifyNode:node_modules/webpack/node_modules/webidl-conversions Completed in 337ms
+362 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/helper-api-error Completed in 335ms
+363 timing reifyNode:node_modules/webpack/node_modules/@types/json-schema Completed in 336ms
+364 timing reifyNode:node_modules/webpack/node_modules/has-flag Completed in 345ms
+365 timing reifyNode:node_modules/webpack/node_modules/lodash.sortby Completed in 346ms
+366 timing reifyNode:node_modules/webpack/node_modules/supports-color Completed in 345ms
+367 timing reifyNode:node_modules/webpack/node_modules/json-parse-even-better-errors Completed in 351ms
+368 timing reifyNode:node_modules/webpack/node_modules/esrecurse Completed in 355ms
+369 timing reifyNode:node_modules/webpack/node_modules/glob-to-regexp Completed in 357ms
+370 timing reifyNode:node_modules/webpack/node_modules/mime-types Completed in 359ms
+371 timing reifyNode:node_modules/webpack/node_modules/safe-buffer Completed in 361ms
+372 timing reifyNode:node_modules/webpack/node_modules/punycode Completed in 361ms
+373 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/floating-point-hex-parser Completed in 362ms
+374 timing reifyNode:node_modules/webpack/node_modules/@types/estree Completed in 362ms
+375 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/ieee754 Completed in 366ms
+376 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/helper-numbers Completed in 369ms
+377 timing reifyNode:node_modules/webpack/node_modules/acorn-import-assertions Completed in 368ms
+378 timing reifyNode:node_modules/webpack/node_modules/@xtuc/ieee754 Completed in 375ms
+379 timing reifyNode:node_modules/webpack/node_modules/loader-runner Completed in 379ms
+380 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/wast-printer Completed in 379ms
+381 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/wasm-opt Completed in 382ms
+382 timing reifyNode:node_modules/webpack/node_modules/estraverse Completed in 384ms
+383 timing reifyNode:node_modules/webpack/node_modules/esrecurse/node_modules/estraverse Completed in 385ms
+384 timing reifyNode:node_modules/webpack/node_modules/node-releases Completed in 386ms
+385 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/helper-buffer Completed in 385ms
+386 timing reifyNode:node_modules/webpack/node_modules/commander Completed in 389ms
+387 timing reifyNode:node_modules/webpack/node_modules/picocolors Completed in 389ms
+388 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/helper-wasm-bytecode Completed in 388ms
+389 timing reifyNode:node_modules/webpack/node_modules/graceful-fs Completed in 394ms
+390 timing reifyNode:node_modules/webpack/node_modules/chrome-trace-event Completed in 403ms
+391 timing reifyNode:node_modules/webpack/node_modules/randombytes Completed in 411ms
+392 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/wasm-edit Completed in 410ms
+393 timing reifyNode:node_modules/webpack/node_modules/source-map-support Completed in 419ms
+394 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/wasm-gen Completed in 417ms
+395 timing reifyNode:node_modules/webpack/node_modules/mime-db Completed in 428ms
+396 timing reifyNode:node_modules/webpack/node_modules/escalade Completed in 434ms
+397 timing reifyNode:node_modules/webpack/node_modules/json-schema-traverse Completed in 443ms
+398 timing reifyNode:node_modules/webpack/node_modules/es-module-lexer Completed in 443ms
+399 timing reifyNode:node_modules/webpack/node_modules/watchpack Completed in 451ms
+400 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/helper-wasm-section Completed in 459ms
+401 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/leb128 Completed in 461ms
+402 timing reifyNode:node_modules/webpack/node_modules/tr46 Completed in 469ms
+403 timing reifyNode:node_modules/webpack/node_modules/fast-deep-equal Completed in 468ms
+404 timing reifyNode:node_modules/webpack/node_modules/@xtuc/long Completed in 467ms
+405 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/wasm-parser Completed in 467ms
+406 timing reifyNode:node_modules/webpack/node_modules/terser-webpack-plugin Completed in 470ms
+407 timing reifyNode:node_modules/webpack/node_modules/browserslist Completed in 472ms
+408 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/utf8 Completed in 483ms
+409 timing reifyNode:node_modules/webpack/node_modules/whatwg-url Completed in 490ms
+410 timing reifyNode:node_modules/webpack/node_modules/eslint-scope Completed in 490ms
+411 timing reifyNode:node_modules/webpack/node_modules/electron-to-chromium Completed in 503ms
+412 timing reifyNode:node_modules/webpack/node_modules/@types/eslint Completed in 516ms
+413 timing reifyNode:node_modules/webpack/node_modules/acorn Completed in 516ms
+414 timing reifyNode:node_modules/webpack/node_modules/fast-json-stable-stringify Completed in 522ms
+415 timing reifyNode:node_modules/webpack/node_modules/schema-utils Completed in 525ms
+416 timing reifyNode:node_modules/webpack/node_modules/tapable Completed in 537ms
+417 timing reifyNode:node_modules/webpack/node_modules/terser/node_modules/source-map Completed in 554ms
+418 timing reifyNode:node_modules/webpack/node_modules/webpack-sources Completed in 577ms
+419 timing reifyNode:node_modules/webpack/node_modules/jest-worker Completed in 580ms
+420 timing reifyNode:node_modules/webpack/node_modules/events Completed in 603ms
+421 timing reifyNode:node_modules/webpack/node_modules/ajv-keywords Completed in 607ms
+422 timing reifyNode:node_modules/webpack/node_modules/source-map Completed in 615ms
+423 timing reifyNode:node_modules/webpack/node_modules/@webassemblyjs/ast Completed in 636ms
+424 timing reifyNode:node_modules/webpack/node_modules/enhanced-resolve Completed in 652ms
+425 timing reifyNode:node_modules/webpack/node_modules/uri-js Completed in 667ms
+426 timing reifyNode:node_modules/webpack/node_modules/terser Completed in 706ms
+427 timing reifyNode:node_modules/webpack/node_modules/@types/node Completed in 729ms
+428 timing reifyNode:node_modules/webpack/node_modules/neo-async Completed in 745ms
+429 timing reifyNode:node_modules/webpack/node_modules/ajv Completed in 763ms
+430 timing reifyNode:node_modules/webpack Completed in 1507ms
+431 timing reifyNode:node_modules/webpack/node_modules/caniuse-lite Completed in 1611ms
+432 timing reify:unpack Completed in 1613ms
+433 timing reify:unretire Completed in 0ms
+434 timing build:queue Completed in 3ms
+435 timing build:link:node_modules/webpack Completed in 8ms
+436 timing build:link:node_modules/webpack/node_modules/acorn Completed in 7ms
+437 timing build:link:node_modules/webpack/node_modules/browserslist Completed in 7ms
+438 timing build:link:node_modules/webpack/node_modules/terser Completed in 8ms
+439 timing build:link Completed in 9ms
+440 timing build:deps Completed in 12ms
+441 timing build Completed in 12ms
+442 timing reify:build Completed in 13ms
+443 timing reify:trash Completed in 0ms
+444 timing reify Completed in 3152ms
+445 silly ADD node_modules/webpack
+446 silly ADD node_modules/webpack/node_modules/webidl-conversions
+447 silly ADD node_modules/webpack/node_modules/tr46
+448 silly ADD node_modules/webpack/node_modules/lodash.sortby
+449 silly ADD node_modules/webpack/node_modules/whatwg-url
+450 silly ADD node_modules/webpack/node_modules/punycode
+451 silly ADD node_modules/webpack/node_modules/buffer-from
+452 silly ADD node_modules/webpack/node_modules/source-map-support
+453 silly ADD node_modules/webpack/node_modules/commander
+454 silly ADD node_modules/webpack/node_modules/has-flag
+455 silly ADD node_modules/webpack/node_modules/safe-buffer
+456 silly ADD node_modules/webpack/node_modules/randombytes
+457 silly ADD node_modules/webpack/node_modules/supports-color
+458 silly ADD node_modules/webpack/node_modules/merge-stream
+459 silly ADD node_modules/webpack/node_modules/@types/node
+460 silly ADD node_modules/webpack/node_modules/terser
+461 silly ADD node_modules/webpack/node_modules/terser/node_modules/source-map
+462 silly ADD node_modules/webpack/node_modules/source-map
+463 silly ADD node_modules/webpack/node_modules/serialize-javascript
+464 silly ADD node_modules/webpack/node_modules/jest-worker
+465 silly ADD node_modules/webpack/node_modules/uri-js
+466 silly ADD node_modules/webpack/node_modules/json-schema-traverse
+467 silly ADD node_modules/webpack/node_modules/fast-json-stable-stringify
+468 silly ADD node_modules/webpack/node_modules/fast-deep-equal
+469 silly ADD node_modules/webpack/node_modules/ajv-keywords
+470 silly ADD node_modules/webpack/node_modules/ajv
+471 silly ADD node_modules/webpack/node_modules/mime-db
+472 silly ADD node_modules/webpack/node_modules/estraverse
+473 silly ADD node_modules/webpack/node_modules/esrecurse
+474 silly ADD node_modules/webpack/node_modules/esrecurse/node_modules/estraverse
+475 silly ADD node_modules/webpack/node_modules/picocolors
+476 silly ADD node_modules/webpack/node_modules/node-releases
+477 silly ADD node_modules/webpack/node_modules/escalade
+478 silly ADD node_modules/webpack/node_modules/electron-to-chromium
+479 silly ADD node_modules/webpack/node_modules/caniuse-lite
+480 silly ADD node_modules/webpack/node_modules/@xtuc/ieee754
+481 silly ADD node_modules/webpack/node_modules/@webassemblyjs/utf8
+482 silly ADD node_modules/webpack/node_modules/@webassemblyjs/leb128
+483 silly ADD node_modules/webpack/node_modules/@webassemblyjs/ieee754
+484 silly ADD node_modules/webpack/node_modules/@webassemblyjs/wast-printer
+485 silly ADD node_modules/webpack/node_modules/@webassemblyjs/wasm-opt
+486 silly ADD node_modules/webpack/node_modules/@webassemblyjs/wasm-gen
+487 silly ADD node_modules/webpack/node_modules/@webassemblyjs/helper-wasm-section
+488 silly ADD node_modules/webpack/node_modules/@webassemblyjs/helper-buffer
+489 silly ADD node_modules/webpack/node_modules/@xtuc/long
+490 silly ADD node_modules/webpack/node_modules/@webassemblyjs/helper-api-error
+491 silly ADD node_modules/webpack/node_modules/@webassemblyjs/floating-point-hex-parser
+492 silly ADD node_modules/webpack/node_modules/@webassemblyjs/helper-wasm-bytecode
+493 silly ADD node_modules/webpack/node_modules/@webassemblyjs/helper-numbers
+494 silly ADD node_modules/webpack/node_modules/@types/json-schema
+495 silly ADD node_modules/webpack/node_modules/@types/eslint
+496 silly ADD node_modules/webpack/node_modules/webpack-sources
+497 silly ADD node_modules/webpack/node_modules/watchpack
+498 silly ADD node_modules/webpack/node_modules/terser-webpack-plugin
+499 silly ADD node_modules/webpack/node_modules/tapable
+500 silly ADD node_modules/webpack/node_modules/schema-utils
+501 silly ADD node_modules/webpack/node_modules/neo-async
+502 silly ADD node_modules/webpack/node_modules/mime-types
+503 silly ADD node_modules/webpack/node_modules/loader-runner
+504 silly ADD node_modules/webpack/node_modules/json-parse-even-better-errors
+505 silly ADD node_modules/webpack/node_modules/graceful-fs
+506 silly ADD node_modules/webpack/node_modules/glob-to-regexp
+507 silly ADD node_modules/webpack/node_modules/events
+508 silly ADD node_modules/webpack/node_modules/eslint-scope
+509 silly ADD node_modules/webpack/node_modules/es-module-lexer
+510 silly ADD node_modules/webpack/node_modules/enhanced-resolve
+511 silly ADD node_modules/webpack/node_modules/chrome-trace-event
+512 silly ADD node_modules/webpack/node_modules/browserslist
+513 silly ADD node_modules/webpack/node_modules/acorn-import-assertions
+514 silly ADD node_modules/webpack/node_modules/acorn
+515 silly ADD node_modules/webpack/node_modules/@webassemblyjs/wasm-parser
+516 silly ADD node_modules/webpack/node_modules/@webassemblyjs/wasm-edit
+517 silly ADD node_modules/webpack/node_modules/@webassemblyjs/ast
+518 silly ADD node_modules/webpack/node_modules/@types/estree
+519 silly ADD node_modules/webpack/node_modules/@types/eslint-scope
+520 timing command:install Completed in 3157ms
+521 verbose exit 0
+522 timing npm Completed in 3369ms
+523 info ok

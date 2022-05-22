@@ -1,0 +1,2 @@
+
+39e0bf533663451c693caf7a06ee20a92b09ec41	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jest-message-util","integrity":null,"time":1653031781901,"size":"262","metadata":{"time":1653031781901,"url":"https://registry.npm.taobao.org/jest-message-util","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/jest-message-util"},"options":{"compress":true},"status":301}}

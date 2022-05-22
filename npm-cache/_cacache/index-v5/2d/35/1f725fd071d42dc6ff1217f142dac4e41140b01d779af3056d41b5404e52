@@ -1,0 +1,2 @@
+
+cedb1e4ba9f187ba58a2ca8563a915b545fc68fd	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-absolute-url","integrity":null,"time":1653031781378,"size":"262","metadata":{"time":1653031781378,"url":"https://registry.npm.taobao.org/is-absolute-url","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/is-absolute-url"},"options":{"compress":true},"status":301}}

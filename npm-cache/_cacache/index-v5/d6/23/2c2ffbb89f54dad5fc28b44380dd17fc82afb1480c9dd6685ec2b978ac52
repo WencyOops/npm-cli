@@ -1,0 +1,2 @@
+
+669cbeb87d6fa5328a25da7bf0b761cefa097872	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/es6-symbol","integrity":null,"time":1653031787318,"size":"262","metadata":{"time":1653031787318,"url":"https://registry.npm.taobao.org/es6-symbol","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/es6-symbol"},"options":{"compress":true},"status":301}}

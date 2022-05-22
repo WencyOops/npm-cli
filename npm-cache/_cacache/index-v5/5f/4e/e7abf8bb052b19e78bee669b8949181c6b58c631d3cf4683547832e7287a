@@ -1,0 +1,2 @@
+
+65f676a135ed20dfa3293520e1cddb7032dd5e6d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/domhandler","integrity":null,"time":1653031785633,"size":"262","metadata":{"time":1653031785633,"url":"https://registry.npm.taobao.org/domhandler","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/domhandler"},"options":{"compress":true},"status":301}}

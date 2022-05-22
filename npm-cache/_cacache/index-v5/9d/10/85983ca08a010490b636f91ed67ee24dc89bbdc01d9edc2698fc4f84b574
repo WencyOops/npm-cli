@@ -1,0 +1,2 @@
+
+74e0453645ba2d7c92bcd0237cc139daee0f8084	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/readdirp","integrity":null,"time":1653031787851,"size":"262","metadata":{"time":1653031787851,"url":"https://registry.npm.taobao.org/readdirp","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/readdirp"},"options":{"compress":true},"status":301}}

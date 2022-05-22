@@ -1,0 +1,2 @@
+
+e26b4618d964f2ec3c3a82524a9802fb022b3c8b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-primitive","integrity":null,"time":1653031785592,"size":"262","metadata":{"time":1653031785592,"url":"https://registry.npm.taobao.org/is-primitive","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/is-primitive"},"options":{"compress":true},"status":301}}

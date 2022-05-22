@@ -1,0 +1,2 @@
+
+a6007fda283839664233ef6faf4a647557a01649	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-plugin-jsx-v-model","integrity":null,"time":1653031786930,"size":"262","metadata":{"time":1653031786930,"url":"https://registry.npm.taobao.org/babel-plugin-jsx-v-model","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/babel-plugin-jsx-v-model"},"options":{"compress":true},"status":301}}

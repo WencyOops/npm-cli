@@ -1,0 +1,2 @@
+
+9a84039056baec2373ee33693b9cb512cd2eb158	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/optimist","integrity":null,"time":1653031779033,"size":"262","metadata":{"time":1653031779033,"url":"https://registry.npm.taobao.org/optimist","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/optimist"},"options":{"compress":true},"status":301}}

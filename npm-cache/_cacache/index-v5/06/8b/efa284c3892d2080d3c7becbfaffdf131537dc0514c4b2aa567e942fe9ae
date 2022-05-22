@@ -1,0 +1,2 @@
+
+67cc8ad6b1f8911b038775b8f07e084f8c923281	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/css-color-names","integrity":null,"time":1653031784681,"size":"262","metadata":{"time":1653031784681,"url":"https://registry.npm.taobao.org/css-color-names","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/css-color-names"},"options":{"compress":true},"status":301}}

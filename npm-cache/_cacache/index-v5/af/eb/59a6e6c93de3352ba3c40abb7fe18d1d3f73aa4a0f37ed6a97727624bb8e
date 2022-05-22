@@ -1,0 +1,2 @@
+
+ef1d24d53f1c9f3895da878096a12034f39cbc9c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/killable","integrity":null,"time":1653031779152,"size":"262","metadata":{"time":1653031779152,"url":"https://registry.npm.taobao.org/killable","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/killable"},"options":{"compress":true},"status":301}}

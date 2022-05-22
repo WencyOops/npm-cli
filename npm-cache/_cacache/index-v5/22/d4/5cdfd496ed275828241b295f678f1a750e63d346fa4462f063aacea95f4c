@@ -1,0 +1,2 @@
+
+c9590312aca1278f0153715932d7c94a8c654ef9	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/math-random","integrity":null,"time":1653031783858,"size":"262","metadata":{"time":1653031783858,"url":"https://registry.npm.taobao.org/math-random","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:44 GMT","location":"https://registry.npmmirror.com/math-random"},"options":{"compress":true},"status":301}}

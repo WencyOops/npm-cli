@@ -1,0 +1,2 @@
+
+964491629e55d640c3e03a590b3d92b60942f2f7	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/tcp-port-used","integrity":null,"time":1653031778966,"size":"262","metadata":{"time":1653031778966,"url":"https://registry.npm.taobao.org/tcp-port-used","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/tcp-port-used"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+3e31f0177795bb6824ebdee1c7e07794eb727cab	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/cssnano","integrity":null,"time":1653031778967,"size":"262","metadata":{"time":1653031778967,"url":"https://registry.npm.taobao.org/cssnano","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/cssnano"},"options":{"compress":true},"status":301}}

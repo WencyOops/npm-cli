@@ -1,0 +1,2 @@
+
+14e24f45f4aaf1fe978c098951539ee8c61198b3	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/css-select-base-adapter","integrity":null,"time":1653031789836,"size":"262","metadata":{"time":1653031789836,"url":"https://registry.npm.taobao.org/css-select-base-adapter","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:50 GMT","location":"https://registry.npmmirror.com/css-select-base-adapter"},"options":{"compress":true},"status":301}}

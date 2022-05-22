@@ -1,0 +1,2 @@
+
+e000765c73498fa28819f82c1c70c75c15f12dba	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/reduce-css-calc","integrity":null,"time":1653031781374,"size":"262","metadata":{"time":1653031781374,"url":"https://registry.npm.taobao.org/reduce-css-calc","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:41 GMT","location":"https://registry.npmmirror.com/reduce-css-calc"},"options":{"compress":true},"status":301}}

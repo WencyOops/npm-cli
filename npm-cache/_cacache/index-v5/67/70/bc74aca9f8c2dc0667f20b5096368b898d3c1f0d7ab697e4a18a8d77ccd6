@@ -1,0 +1,2 @@
+
+e19b3b084e26a18462bc6e6301b31c159966167e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/longest","integrity":null,"time":1653031790424,"size":"262","metadata":{"time":1653031790423,"url":"https://registry.npm.taobao.org/longest","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:50 GMT","location":"https://registry.npmmirror.com/longest"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+e2e7721bd97595ca0c4386923b760b6c8383a6a0	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/socks","integrity":null,"time":1653031785310,"size":"262","metadata":{"time":1653031785310,"url":"https://registry.npm.taobao.org/socks","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/socks"},"options":{"compress":true},"status":301}}

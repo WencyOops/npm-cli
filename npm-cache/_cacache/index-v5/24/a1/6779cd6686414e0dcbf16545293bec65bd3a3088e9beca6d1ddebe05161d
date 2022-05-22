@@ -1,0 +1,2 @@
+
+16130a623a2c0d0204ca4760fabbdf8bc228ec4d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@types%2fcli-spinners","integrity":null,"time":1653034638409,"size":"262","metadata":{"time":1653034638409,"url":"https://registry.npm.taobao.org/@types%2fcli-spinners","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 08:17:18 GMT","location":"https://registry.npmmirror.com/@types%2fcli-spinners"},"options":{"compress":true},"status":301}}

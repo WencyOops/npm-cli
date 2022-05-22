@@ -1,0 +1,2 @@
+
+7ef7c0c63dfe4d25aa5f1f243f38dcc2af8eba28	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/camelcase-keys","integrity":null,"time":1653031788466,"size":"262","metadata":{"time":1653031788466,"url":"https://registry.npm.taobao.org/camelcase-keys","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/camelcase-keys"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+847668441b851355cf81b8f014ce728725787407	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/elliptic","integrity":null,"time":1653031787616,"size":"262","metadata":{"time":1653031787616,"url":"https://registry.npm.taobao.org/elliptic","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/elliptic"},"options":{"compress":true},"status":301}}

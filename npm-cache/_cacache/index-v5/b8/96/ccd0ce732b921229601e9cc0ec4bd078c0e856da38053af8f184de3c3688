@@ -1,0 +1,2 @@
+
+09d3e4a9b704df432e0943cc3d0d2b75859c9758	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/ripemd160","integrity":null,"time":1653031787618,"size":"262","metadata":{"time":1653031787618,"url":"https://registry.npm.taobao.org/ripemd160","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/ripemd160"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+6b024535d2a9f6537e3e97e672963af0ffa84932	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/prelude-ls","integrity":null,"time":1653031783646,"size":"262","metadata":{"time":1653031783646,"url":"https://registry.npm.taobao.org/prelude-ls","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/prelude-ls"},"options":{"compress":true},"status":301}}

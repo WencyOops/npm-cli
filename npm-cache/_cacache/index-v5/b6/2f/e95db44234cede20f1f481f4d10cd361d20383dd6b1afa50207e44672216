@@ -1,0 +1,2 @@
+
+a8a84c7c2cfbce2e13729ad3ec98128a06215763	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/fb-watchman","integrity":null,"time":1653031782498,"size":"262","metadata":{"time":1653031782498,"url":"https://registry.npm.taobao.org/fb-watchman","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/fb-watchman"},"options":{"compress":true},"status":301}}

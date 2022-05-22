@@ -1,0 +1,2 @@
+
+4c4f4dac18112e5d6bf422da3f9486ed67e8f4cc	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/ansi-html","integrity":null,"time":1653031779130,"size":"262","metadata":{"time":1653031779130,"url":"https://registry.npm.taobao.org/ansi-html","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/ansi-html"},"options":{"compress":true},"status":301}}

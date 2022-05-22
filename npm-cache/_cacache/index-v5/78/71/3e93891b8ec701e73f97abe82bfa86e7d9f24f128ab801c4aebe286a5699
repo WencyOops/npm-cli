@@ -1,0 +1,2 @@
+
+b236dd04a476953b5a4577c6cf94d365cdeba043	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/websocket-extensions","integrity":null,"time":1653031788630,"size":"262","metadata":{"time":1653031788630,"url":"https://registry.npm.taobao.org/websocket-extensions","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:48 GMT","location":"https://registry.npmmirror.com/websocket-extensions"},"options":{"compress":true},"status":301}}

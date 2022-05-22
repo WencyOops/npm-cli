@@ -1,0 +1,2 @@
+
+ea5b722cfdb2622dd6d5efce83af14db86bbbc0f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jest-config","integrity":null,"time":1653031781897,"size":"262","metadata":{"time":1653031781897,"url":"https://registry.npm.taobao.org/jest-config","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:42 GMT","location":"https://registry.npmmirror.com/jest-config"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+8f5f77f2841c3f078096b264242f5fa1b392ad9f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/chromedriver","integrity":null,"time":1653031777203,"size":"262","metadata":{"time":1653031777203,"url":"https://registry.npm.taobao.org/chromedriver","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:37 GMT","location":"https://registry.npmmirror.com/chromedriver"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+f6faac9e299e7a18813a579a14cf6e6f6f557a6b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/builtin-status-codes","integrity":null,"time":1653031787479,"size":"262","metadata":{"time":1653031787479,"url":"https://registry.npm.taobao.org/builtin-status-codes","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/builtin-status-codes"},"options":{"compress":true},"status":301}}

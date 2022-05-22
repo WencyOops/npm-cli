@@ -1,0 +1,2 @@
+
+f1943b4fe426e49d2edd05902be375d39f879f70	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-generator-fn","integrity":null,"time":1653031782890,"size":"262","metadata":{"time":1653031782890,"url":"https://registry.npm.taobao.org/is-generator-fn","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/is-generator-fn"},"options":{"compress":true},"status":301}}

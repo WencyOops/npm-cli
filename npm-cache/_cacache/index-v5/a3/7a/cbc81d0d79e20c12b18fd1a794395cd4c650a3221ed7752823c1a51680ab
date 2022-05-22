@@ -1,0 +1,2 @@
+
+6c2246d8318099cab87d3c99f2c35ec535f42c7f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/yarn","integrity":null,"time":1653039232358,"size":"262","metadata":{"time":1653039232357,"url":"https://registry.npm.taobao.org/yarn","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 09:33:52 GMT","location":"https://registry.npmmirror.com/yarn"},"options":{"compress":true},"status":301}}

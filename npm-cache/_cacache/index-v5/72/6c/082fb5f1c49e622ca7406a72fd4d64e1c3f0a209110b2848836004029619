@@ -1,0 +1,2 @@
+
+6420f5e08c64b26f4d79f1f00cf92e7bb66964b5	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/diffie-hellman","integrity":null,"time":1653031787475,"size":"262","metadata":{"time":1653031787475,"url":"https://registry.npm.taobao.org/diffie-hellman","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/diffie-hellman"},"options":{"compress":true},"status":301}}

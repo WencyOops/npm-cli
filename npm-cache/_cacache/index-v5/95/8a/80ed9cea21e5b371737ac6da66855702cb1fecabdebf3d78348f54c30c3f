@@ -1,0 +1,2 @@
+
+f3685372e958fe009d20ce9d4ee55325ec9c1d1a	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/create-ecdh","integrity":null,"time":1653031787475,"size":"262","metadata":{"time":1653031787475,"url":"https://registry.npm.taobao.org/create-ecdh","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:47 GMT","location":"https://registry.npmmirror.com/create-ecdh"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+188c72ab1e09e33aececca6ade0f38fd1d68de2f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-jest","integrity":null,"time":1653031776810,"size":"262","metadata":{"time":1653031776810,"url":"https://registry.npm.taobao.org/babel-jest","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:37 GMT","location":"https://registry.npmmirror.com/babel-jest"},"options":{"compress":true},"status":301}}

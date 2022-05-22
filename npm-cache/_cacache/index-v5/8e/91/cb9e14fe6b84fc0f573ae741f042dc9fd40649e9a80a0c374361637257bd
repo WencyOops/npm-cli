@@ -1,0 +1,2 @@
+
+8383570ad2947a4645cdbc4ed757b1085e12a27c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/domexception","integrity":null,"time":1653031782948,"size":"262","metadata":{"time":1653031782948,"url":"https://registry.npm.taobao.org/domexception","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/domexception"},"options":{"compress":true},"status":301}}

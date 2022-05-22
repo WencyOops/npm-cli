@@ -1,0 +1,2 @@
+
+eb3dc0d25b3dcd0ad44818d7d2d524bf577231d7	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@discoveryjs%2fjson-ext","integrity":null,"time":1653039222847,"size":"262","metadata":{"time":1653039222847,"url":"https://registry.npm.taobao.org/@discoveryjs%2fjson-ext","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 09:33:43 GMT","location":"https://registry.npmmirror.com/@discoveryjs%2fjson-ext"},"options":{"compress":true},"status":301}}

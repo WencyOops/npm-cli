@@ -1,0 +1,2 @@
+
+de63384d5e5aca03af60f0af8f0466b392ae178b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/capture-stack-trace","integrity":null,"time":1653031611768,"size":"262","metadata":{"time":1653031611768,"url":"https://registry.npm.taobao.org/capture-stack-trace","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:26:52 GMT","location":"https://registry.npmmirror.com/capture-stack-trace"},"options":{"compress":true},"status":301}}

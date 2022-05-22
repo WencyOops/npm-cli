@@ -1,0 +1,2 @@
+
+cc5de6f74368e987dcb6766f47ebb61359842234	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/flatten","integrity":null,"time":1653031784920,"size":"262","metadata":{"time":1653031784920,"url":"https://registry.npm.taobao.org/flatten","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:45 GMT","location":"https://registry.npmmirror.com/flatten"},"options":{"compress":true},"status":301}}

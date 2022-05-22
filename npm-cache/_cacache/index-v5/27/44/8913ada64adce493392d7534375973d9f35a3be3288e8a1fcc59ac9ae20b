@@ -1,0 +1,2 @@
+
+01d5956e7d1a819cc0d3da24b561fd46fc2a9e19	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/babel-runtime","integrity":null,"time":1653031778858,"size":"262","metadata":{"time":1653031778858,"url":"https://registry.npm.taobao.org/babel-runtime","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:39 GMT","location":"https://registry.npmmirror.com/babel-runtime"},"options":{"compress":true},"status":301}}

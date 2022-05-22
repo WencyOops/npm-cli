@@ -1,0 +1,2 @@
+
+bc6621d6ba454ff32e6d65b72a4a24f5dd0b0745	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/browser-process-hrtime","integrity":null,"time":1653031783576,"size":"262","metadata":{"time":1653031783575,"url":"https://registry.npm.taobao.org/browser-process-hrtime","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 May 2022 07:29:43 GMT","location":"https://registry.npmmirror.com/browser-process-hrtime"},"options":{"compress":true},"status":301}}
